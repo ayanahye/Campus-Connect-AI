@@ -51,10 +51,12 @@ def extract_sections(data, themes):
             for block in blocks:
                 if len(block.split()) >= 5:
                     doc = nlp(block)
+                    block_lower = block.lower()
                     # match the kwywords to themes
                     # return dict where keys are themes and values are lists with source and content
                     for theme, keywords in themes.items():
-                        if any(keyword.lower() in block.lower() for keyword in keywords):
+                        matching_keywords = sum(1 for keyword in keywords if keyword.lower() in block_lower)
+                        if matching_keywords >= 2:
                             if theme not in sections:
                                 sections[theme] = []
                             sections[theme].append((current_source, block.strip()))
