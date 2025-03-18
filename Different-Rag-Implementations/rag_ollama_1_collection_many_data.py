@@ -15,8 +15,8 @@ import ollama
 import chromadb
 
 # replace this with your own csv files
-health_data = pd.read_csv('Health-Data-and-Scripts-for-Chatbot/data-with-sources.csv')
-work_data = pd.read_csv('Work-Study-Data-and-Scripts/work-and-education-data.csv')
+health_data = pd.read_csv('../Health-Data-and-Scripts-for-Chatbot/data-with-sources.csv')
+work_data = pd.read_csv('../Work-Study-Data-and-Scripts/work-and-education-data.csv')
 
 # test with first 2 documents
 health_data_sample = health_data.head(2) 
