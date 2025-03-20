@@ -1,4 +1,7 @@
-
+.DS_Store
 
 #ignore .rtf files
 *.rtf
+
+
+/Different-Rag-Implementations/chroma_db
