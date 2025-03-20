@@ -4,7 +4,8 @@
 To use this script:
 1. make sure ollama is installed: https://ollama.com/download
 2. run `ollama pull phi:latest`
-3. run the python file
+3. run `ollama pull mxbai-embed-large`
+4. run the python file
 
 dont worry too much this is a test and we can try hf 
 '''
