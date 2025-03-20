@@ -22,4 +22,4 @@ def convert_rtf_to_csv(input_file, output_file):
 
 
 
-convert_rtf_to_csv('data.rtf', 'study_permit_general.csv')
+convert_rtf_to_csv('data.rtf', 'work_permit_student_general.csv')
