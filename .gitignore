@@ -3,5 +3,8 @@
 #ignore .rtf files
 *.rtf
 
+.env
+
+/Different-Rag-Implementations/sample_data
 
 /Different-Rag-Implementations/chroma_db
