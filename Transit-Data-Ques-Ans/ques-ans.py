@@ -45,8 +45,8 @@ class VancouverTransitQAGenerator:
             'answer': f"There are {len(routes_df)} bus routes in the Vancouver transit system."
         })
         
-        # Questions about specific routes (sample 150)
-        for _, route in routes_df.sample(min(150, len(routes_df))).iterrows():
+        # Questions about specific routes (sample 50)
+        for _, route in routes_df.sample(min(50, len(routes_df))).iterrows():
             route_id = route.get('route_id', '')
             route_short_name = route.get('route_short_name', route_id)
             route_long_name = route.get('route_long_name', '')
@@ -59,7 +59,7 @@ class VancouverTransitQAGenerator:
             
             self.qa_pairs.append({
                 'question': f"Where does bus {route_short_name} go?",
-                'answer': f"Bus {route_short_name} ({route_long_name}) connects various stops in Vancouver. For specific stop information, please ask about this route's stops."
+                'answer': f"Bus {route_short_name} ({route_long_name}) connects various stops in Vancouver. For specific stop information, please refer to TransLink's official website or the transit mobile app."
             })
             
         # UBC & major destination specific questions
@@ -75,6 +75,20 @@ class VancouverTransitQAGenerator:
                 'question': "How can I get to UBC by bus?",
                 'answer': f"You can reach UBC by taking bus routes {ubc_route_names}. Check the TransLink website or app for the most convenient route based on your starting location."
             })
+            
+        # SFU & major destination specific questions
+        sfu_routes = routes_df[routes_df['route_long_name'].str.contains('SFU', na=False)]
+        if not sfu_routes.empty:
+            sfu_route_names = ", ".join(sfu_routes['route_short_name'].tolist()[:5])
+            self.qa_pairs.append({
+                'question': "Which buses go to SFU?",
+                'answer': f"Buses that go to SFU include routes {sfu_route_names}. These routes connect SFU to various parts of Vancouver."
+            })
+            
+            self.qa_pairs.append({
+                'question': "How can I get to SFU by bus?",
+                'answer': f"You can reach SFU by taking bus routes {sfu_route_names}. Check the TransLink website or app for the most convenient route based on your starting location."
+            })
 
     def generate_stop_questions(self):
         """Generate questions about stops."""
@@ -88,24 +102,6 @@ class VancouverTransitQAGenerator:
             'question': "How many bus stops are there in Vancouver?",
             'answer': f"There are {len(stops_df)} bus stops in Vancouver's transit system."
         })
-        
-        # Sample specific stops (limit to avoid generating too many QA pairs)
-        for _, stop in stops_df.sample(min(200, len(stops_df))).iterrows():
-            stop_id = stop.get('stop_id', '')
-            stop_name = stop.get('stop_name', '')
-            stop_lat = stop.get('stop_lat', '')
-            stop_lon = stop.get('stop_lon', '')
-            
-            # Basic stop information
-            self.qa_pairs.append({
-                'question': f"Where is the {stop_name} bus stop located?",
-                'answer': f"The {stop_name} bus stop (ID: {stop_id}) is located at coordinates: {stop_lat}, {stop_lon}."
-            })
-            
-            self.qa_pairs.append({
-                'question': f"What is the stop ID for {stop_name}?",
-                'answer': f"The stop ID for {stop_name} is {stop_id}."
-            })
 
     def generate_canada_line_questions(self):
         """Generate specific questions about Canada Line based on stop_order_exceptions."""
@@ -127,7 +123,7 @@ class VancouverTransitQAGenerator:
             
             self.qa_pairs.append({
                 'question': "How do I get to the airport by public transit?",
-                'answer': "You can take the Canada Line SkyTrain to YVR-Airport Station. The Canada Line connects downtown Vancouver to the airport."
+                'answer': "You can take the Canada Line SkyTrain to YVR-Airport Station. The Canada Line connects downtown Vancouver and Richmond to the airport."
             })
             
             self.qa_pairs.append({
@@ -141,7 +137,6 @@ class VancouverTransitQAGenerator:
             return
             
         trips_df = self.data['trips']
-        stop_times_df = self.data['stop_times']
         
         # Get some sample trip headsigns
         headsigns = trips_df['trip_headsign'].dropna().unique()[:5]
@@ -168,7 +163,7 @@ class VancouverTransitQAGenerator:
         # University area questions
         universities = [
             {"name": "University of British Columbia (UBC)", "routes": ["33", "R4", "49", "14", "4"]},
-            {"name": "Simon Fraser University (SFU)", "routes": ["95", "145", "R5"]},
+            {"name": "Simon Fraser University (SFU)", "routes": ["95", "145", "R5", "143", "144"]},
             {"name": "Langara College", "routes": ["15", "49"]},
             {"name": "BCIT", "routes": ["130"]}
         ]
@@ -176,7 +171,7 @@ class VancouverTransitQAGenerator:
         for uni in universities:
             self.qa_pairs.append({
                 'question': f"How do I get to {uni['name']} by bus?",
-                'answer': f"To get to {uni['name']}, you can take bus routes {', '.join(uni['routes'])}. Always check the TransLink website for the most up-to-date information."
+                'answer': f"To get to {uni['name']}, you can take bus routes {', '.join(uni['routes'])}. Always check the TransLink website or mobile app for the most up-to-date information."
             })
         
         # Student-specific transit questions
@@ -210,7 +205,7 @@ class VancouverTransitQAGenerator:
         faqs = [
             {
                 "question": "How much does a bus fare cost in Vancouver?",
-                "answer": "Vancouver uses a zone-based fare system. A single adult fare is approximately $3.10-$4.45 depending on zones and time of day. As an international student, you'll likely have access to the U-Pass BC program for unlimited travel."
+                "answer": "Vancouver uses a zone-based fare system. A single adult fare is approximately $3.10-$4.45 depending on zones and time of day. As an international student, you'll likely have access to the U-Pass BC program for unlimited travel. Customers can save costs by purchasing a Compass Card and loading either passes or stored value. For convenience, you can also tap your contactless debit or credit card or buy a bus transfer ticket using cash at faregates and Compass readers. Not paying your fare, or using incorrect fare, could result in a $173 fine. "
             },
             {
                 "question": "What are the operating hours for Vancouver buses?",
@@ -247,6 +242,26 @@ class VancouverTransitQAGenerator:
             {
                 "question": "How do I transfer between buses in Vancouver?",
                 "answer": "When using a Compass Card or U-Pass, transfers are automatic and valid for 90 minutes from the time you first tap your card. During this time, you can transfer between buses, SkyTrain, and SeaBus without paying again."
+            },
+            {
+                "question": "How do I request a stop in a bus?",
+                "answer": "On the bus, customers will need to request the bus to stop at the next stop by pulling on the yellow cord or hitting one of the red buttons on a nearby pole."
+            },
+            {
+                "question": "Is any accessibility provided for Vancouver's public transit?",
+                "answer": "HandyDART is TransLink's door-to-door, shared-ride service for people who are unable to navigate conventional public transit without assistance. Individuals who may be eligible for HandyDART include those with physical, sensory, or cognitive disabilities."
+            },
+            {
+                "question": "Can I take by bicycle on public transit?",
+                "answer": "Bikes are accepted at all times across transit's services (except under certain conditions on the SkyTrain). Electric bikes are permitted on SkyTrain, SeaBus, and West Coast Express services. Folding bikes are allowed on SkyTrain, SeaBus, and West Coast Express services. Riders are responsible for their bike at all times, including loading and unloading bikes from racks."
+            },
+            {
+                "question": "Where or how can I reach out with a concern regarding public transit?",
+                "answer": "Anyone who has a concern for their safety, or the safety of someone else, is encouraged to contact the Metro Vancouver Transit Police directly by phone at 604.515.8300 or by text at 87.77.77"
+            },
+            {
+                "question": "Are there any sustainable options or services for newcomers to Canada from translink?",
+                "answer": "Sustainable transportation is key in helping newcomers settle into their new home successfully. Translink's TravelSmart for Newcomers program works with individuals, settlement service agencies, and community groups to support our newcomers with resources on how to use public transit and other modes of sustainable transportation."
             }
         ]
         
@@ -295,21 +310,16 @@ class VancouverTransitQAGenerator:
         return output_path
 
 def main():
-    # Directory containing transit data files
     data_dir = input("Enter the directory path containing Vancouver transit CSV files: ")
     
-    # Create QA generator
     generator = VancouverTransitQAGenerator(data_dir)
     
-    # Load transit data
     if not generator.load_data():
         print("No transit data files found. Please check the directory path.")
         return
     
-    # Generate QA pairs
     generator.generate_all_qa_pairs()
     
-    # Save to CSV
     output_file = generator.save_qa_pairs()
     print(f"Q&A pairs saved to {output_file}")
 
