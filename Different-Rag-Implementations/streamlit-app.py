@@ -7,6 +7,9 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import Chroma
 import chromadb
 import streamlit as st
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+import os
+import torch
 
 repo_id = "google/gemma-2-2b-it"
 
@@ -22,7 +25,7 @@ llm = HuggingFaceEndpoint(
 )
 
 health_data = pd.read_csv('./Health-Data-and-Scripts-for-Chatbot/data-with-sources.csv')
-work_data = pd.read_csv('./Work-Study-Data-and-Scripts/work-and-education-data.csv')
+work_data = pd.read_csv('./Work-Study-Data-and-Scripts/work-study-data-llm.csv')
 transit_data = pd.read_csv('./Transit-Data-Ques-Ans/vancouver_transit_qa_pairs.csv')
 
 health_data_sample = health_data
@@ -30,7 +33,7 @@ work_data_sample = work_data
 transit_data_sample = transit_data
 
 health_data_sample['text'] = health_data_sample['Question'].fillna('') + ' ' + health_data_sample['Answer'].fillna('')
-work_data_sample['text'] = work_data_sample['Theme'].fillna('') + ' ' + work_data_sample['Content'].fillna('')
+work_data_sample['text'] = work_data_sample['Question'].fillna('') + ' ' + work_data_sample['Answer'].fillna('')
 transit_data_sample['text'] = transit_data_sample['question'].fillna('') + ' ' + transit_data_sample['answer'].fillna('')
 
 embedding_model = HuggingFaceEmbeddings(
@@ -92,30 +95,17 @@ def generate_answer(query, category):
     relevant_document = " ".join(relevant_document.split())
     MAX_DOC_LENGTH = 500
     relevant_document = relevant_document[:MAX_DOC_LENGTH]
-
-    # rag_prompt = f"""
-    # You are a helpful assistant for international students new to B.C. Here is a relevant document:
-
-    # {relevant_document}
-
-    # Please respond to the following question based on the document above:
-
-    # Question: {query}
-
-    # Answer:
-    # """
     rag_prompt = f"""
     You are a helpful assistant for international students new to B.C. Here is a relevant document:
 
     {relevant_document}
 
-    Please respond to the following question based on the document above, if you can't answer anything or it requires the international student to ask a query again, direct them to additional resources like the vancouver transit website or the transit mobile app for transit related queries:
+    Please respond to the following question based on the document above, if you can't answer anything or it requires the user to ask a query again, direct them to additional resources like the vancouver transit website or the transit mobile app for transit related queries:
 
     Question: {query}
 
     Answer:
     """
-
     output_after_rag = llm.predict(rag_prompt)
     response_after_rag = output_after_rag
 
@@ -124,16 +114,22 @@ def generate_answer(query, category):
         "After RAG Response": response_after_rag
     }
 
+import asyncio
+try:
+    asyncio.get_event_loop()
+except RuntimeError:
+    asyncio.set_event_loop(asyncio.new_event_loop())
+
 st.title("Simple Chatbot")
 
-user_query = st.text_input("Ask me anything:")
-category = "transit"
+user_query = st.text_input("Ask me a question: ")
+category = "work"
 
-if st.button("Get Answer"):
+if st.button("Generate Answer"):
     if user_query:
         responses = generate_answer(user_query, category)
-        for response in responses:
-            st.write(response)
+        print(responses["After RAG Response"])
+        st.write(responses["After RAG Response"])
     else:
         st.warning("Please enter a query.")
 
