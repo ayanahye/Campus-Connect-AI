@@ -1,133 +1,138 @@
-from langchain_community.llms import HuggingFaceEndpoint
-from langchain.chains import LLMChain
-from langchain.prompts import PromptTemplate
 import os
 import pandas as pd
 from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import Chroma
 import chromadb
 import streamlit as st
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import os
-import torch
+from langchain.embeddings import HuggingFaceEmbeddings
+import chromadb
+import uuid
+from llama_cpp import Llama
 
+model_path = "/Users/poorvibhatia/Desktop/Projects/Campus-Connect-AI/Different-Rag-Implementations/Llama-3.2-1B-Instruct-IQ3_M.gguf"
+model = Llama(model_path=model_path, n_ctx=2048, n_threads=8)
 repo_id = "google/gemma-2-2b-it"
-
 hf_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+st._is_running_with_streamlit = True
 
-llm = HuggingFaceEndpoint(
-    task='text-generation',
-    repo_id=repo_id,
-    model="google/gemma-2-2b-it",
-    max_length=1024,
-    temperature=0.1,
-    huggingfacehub_api_token=hf_token
-)
+file_names = [
+    "General-Study-Permit-Questions/study_permit_general",
+    "WorkPermits-For-Students/work_permit_student_general",
+    "Work-Study-Data-and-Scripts/work-study-data-llm",
+    "Transit-Data-Ques-Ans/vancouver_transit_qa_pairs",
+    "Permanent-residence-for-students/permanent_residence_student_general",
+    "Health-Data-and-Scripts-for-Chatbot/data-with-sources",
+    "SFU-Faq-Data/sfu-faq-with-sources"
+]
 
-health_data = pd.read_csv('./Health-Data-and-Scripts-for-Chatbot/data-with-sources.csv')
-work_data = pd.read_csv('./Work-Study-Data-and-Scripts/work-study-data-llm.csv')
-transit_data = pd.read_csv('./Transit-Data-Ques-Ans/vancouver_transit_qa_pairs.csv')
+# all_texts = []
 
-health_data_sample = health_data
-work_data_sample = work_data
-transit_data_sample = transit_data
+# for file in file_names:
+#     path = f'/Users/poorvibhatia/Desktop/Projects/Campus-Connect-AI/{file}.csv'
+#     try:
+#         df = pd.read_csv(path)
+#         df.columns = df.columns.str.lower()
 
-health_data_sample['text'] = health_data_sample['Question'].fillna('') + ' ' + health_data_sample['Answer'].fillna('')
-work_data_sample['text'] = work_data_sample['Question'].fillna('') + ' ' + work_data_sample['Answer'].fillna('')
-transit_data_sample['text'] = transit_data_sample['question'].fillna('') + ' ' + transit_data_sample['answer'].fillna('')
+#         if 'question' in df.columns and 'answer' in df.columns:
+#             df = df.drop_duplicates(subset=['question'])
+#             df['text'] = df['question'].fillna('') + ' ' + df['answer'].fillna('')
+#         elif 'Question' in df.columns and 'Answer' in df.columns:
+#             df = df.drop_duplicates(subset=['question'])
+#             df['text'] = df['Question'].fillna('') + ' ' + df['Answer'].fillna('')
+#         else:
+#             print(f"no text columns in {file}")
+#             continue
+#         all_texts.extend(df['text'].tolist())
+#     except Exception as e:
+#         print(f"Error loading {file}: {e}")
 
 embedding_model = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2"
+    model_name="sentence-transformers/paraphrase-MiniLM-L6-v2"
 )
 
 client = chromadb.PersistentClient(path="./chroma_db")
 
-health_collection = client.get_or_create_collection(name="health_docs")
-work_collection = client.get_or_create_collection(name="work_docs")
-transit_collection = client.get_or_create_collection(name="transit_docs")
+collection = client.get_or_create_collection(name="combined_docs")
 
-def add_data_to_collection(collection, data):
-    for idx, row in data.iterrows():
+# data = pd.DataFrame({"text": all_texts})
+# data = data.drop_duplicates()
+# all_texts = data["text"].tolist()
+
+# print(f"successfully added {len(all_texts)} documents.")
+
+def add_data_to_collection_batch(collection, texts, batch_size=3):
+    for idx in range(0, len(texts), batch_size):
         try:
-            embeddings = embedding_model.embed_documents([row['text']])[0]
+            batch_texts = texts[idx: idx + batch_size]
+
+            embeddings = embedding_model.embed_documents(batch_texts)
+
+            batch_ids = [str(uuid.uuid4()) for _ in batch_texts]
+
             collection.add(
-                ids=[str(idx)],
-                embeddings=[embeddings],
-                documents=[row['text']]
+                ids=batch_ids,
+                embeddings=embeddings,
+                documents=batch_texts
             )
+            print(f"successfully added {len(batch_texts)} documents (Batch {idx}-{idx + batch_size - 1})")
         except Exception as e:
-            print(f"Error on index {idx}: {e}")
+            print(f"Error processing batch starting at index {idx}: {e}")
 
-# add_data_to_collection(health_collection, health_data_sample)
-# add_data_to_collection(work_collection, work_data_sample)
-# add_data_to_collection(transit_collection, transit_data_sample)
+# add_data_to_collection_batch(collection, all_texts)
+# print(f"successfully added {len(all_texts)} documents to the Chroma collection.")
 
-def get_relevant_document(query, category):
+def get_relevant_documents(query, n_results=3):
     try:
-        # get the embedding for the user query using same embedding model
         query_embeddings = embedding_model.embed_documents([query])[0]
 
-        # choose the correct collection based on the category
-        if category == "health":
-            collection = health_collection
-        elif category == "work":
-            collection = work_collection
-        elif category == "transit":
-            collection = transit_collection
-
-        # query the collection
-        results = collection.query(query_embeddings=[query_embeddings], n_results=3)
-
+        results = collection.query(query_embeddings=[query_embeddings], n_results=n_results)
         print(f"Query Results: {results}")
-        return results['documents'][0][0] if results['documents'] else None
+
+        return results['documents'][0] if results['documents'] else []
     except Exception as e:
         print(f"Error querying: {e}")
-        return None
+        return []
     
-def generate_answer(query, category):
-    output_before_rag = llm.predict(f"Respond to this question: {query}")
-    response_before_rag = output_before_rag
+def generate_answer(query):
+    response_before_rag = model(query, max_tokens=200, temperature=0.1)["choices"][0]["text"]
 
-    relevant_document = get_relevant_document(query, category)
-    if relevant_document is None:
-        return f"Sorry, no relevant document found. Model's response before RAG: {response_before_rag}"
+    relevant_documents = get_relevant_documents(query)
+    if not relevant_documents:
+        return {
+            "Before RAG Response": response_before_rag,
+            "After RAG Response": "Sorry, no relevant documents found."
+        }
 
-    relevant_document = " ".join(relevant_document.split())
-    MAX_DOC_LENGTH = 500
-    relevant_document = relevant_document[:MAX_DOC_LENGTH]
+    relevant_texts = "\n\n".join(relevant_documents)
     rag_prompt = f"""
-    You are a helpful assistant for international students new to B.C. Here is a relevant document:
+    You are a helpful assistant for international students. Here are relevant documents:
 
-    {relevant_document}
+    {relevant_texts}
 
-    Please respond to the following question based on the document above, if you can't answer anything or it requires the user to ask a query again, direct them to additional resources like the vancouver transit website or the transit mobile app for transit related queries:
+    Please respond to the following question based on the documents above. Be conversational but concise:
 
     Question: {query}
 
     Answer:
     """
-    output_after_rag = llm.predict(rag_prompt)
-    response_after_rag = output_after_rag
+
+    response_after_rag = model(rag_prompt, max_tokens=300, temperature=0.1)["choices"][0]["text"]
 
     return {
         "Before RAG Response": response_before_rag,
         "After RAG Response": response_after_rag
     }
 
-import asyncio
-try:
-    asyncio.get_event_loop()
-except RuntimeError:
-    asyncio.set_event_loop(asyncio.new_event_loop())
+import nest_asyncio
+nest_asyncio.apply()
 
 st.title("Simple Chatbot")
 
 user_query = st.text_input("Ask me a question: ")
-category = "work"
 
 if st.button("Generate Answer"):
     if user_query:
-        responses = generate_answer(user_query, category)
+        responses = generate_answer(user_query)
         print(responses["After RAG Response"])
         st.write(responses["After RAG Response"])
     else:
