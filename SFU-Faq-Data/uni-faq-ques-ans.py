@@ -31,8 +31,8 @@ def convert_to_csv(input_file, output_file):
     
     return len(data) 
 
-input_file = 'generated-qa.txt'
-output_file = 'sfu-faq-with-sources.csv'  
+input_file = 'housing-qa.txt'
+output_file = 'sfu-housing-with-sources.csv'  
 
 count = convert_to_csv(input_file, output_file)
 print(f"Converted {count} question-answer pairs to {output_file}")
