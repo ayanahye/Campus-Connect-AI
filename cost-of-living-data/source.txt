@@ -1,0 +1,5 @@
+2021_bc_cost_living_all_avg.csv:
+- https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110022301
+
+2021 is most recent data. meant as a reference, if not useful, can drop
+- drop N/As kept for now so we can see whats missing
