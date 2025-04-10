@@ -3,3 +3,12 @@
 
 2021 is most recent data. meant as a reference, if not useful, can drop
 - drop N/As kept for now so we can see whats missing
+
+2021_bc_cost_by_household_type:
+- https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110022401
+
+2021_bc_cost_by_size_area:
+- https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110022601
+
+todo in today meeting:
+- decide which data do we want to use?
