@@ -1,0 +1,8 @@
+public-art.json:
+- https://opendata.vancouver.ca/explore/dataset/public-art/export/
+
+cultural-spaces.json:
+- https://opendata.vancouver.ca/explore/dataset/cultural-spaces/export/?disjunctive.type&disjunctive.primary_use&disjunctive.ownership
+
+parks.json: 
+- https://opendata.vancouver.ca/explore/dataset/parks/export/
