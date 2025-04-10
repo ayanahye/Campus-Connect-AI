@@ -1,0 +1,1500 @@
+<table id="club_listing">
+		<tbody><tr>
+		<td class="logo">
+						<a href="/clubs/390/info"><img src="/clubs/390/logo/thumb" alt="350 - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/390/info">350 - SFU</a></b><br>
+			To raise awareness among students, faculty, and alumni about SFU's role in mitigating climate change.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/123/info"><img src="/clubs/123/logo/thumb" alt="Accounting Student Association - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/123/info">Accounting Student Association - SFU</a></b><br>
+			The SFU Accounting Student Association (ASA) is an organization made up of highly-dedicated students with the mission of assisting student towards their professional life. In order to accomplish this mission, our association provides three types of services: facilitation of information and networking, self-growth, and fellowship.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/858/info"><img src="/clubs/858/logo/thumb" alt="Ace SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/858/info">Ace SFU</a></b><br>
+			Ace SFU’s mandate is to create a business club environment in which students can participate in business themed case competitions at various locations throughout Canada. Ace SFU would be directly affiliated with Ace Canada, a world-renowned case competition organization.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/937/info"><img src="/clubs/937/logo/thumb" alt="Afghanistan Student Union"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/937/info">Afghanistan Student Union</a></b><br>
+			Afghanistan Student Union promotes Afghan culture and builds a community for Afghan students across SFU campuses. Our goal is to create a supportive space for students to share experiences and celebrate their heritage. We also welcome those interested in Afghanistan’s traditions to join our club and participate in our events.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+					</td>
+		<td>
+			<b><a href="/clubs/890/info">Ahmadiyya Muslim Student Association (AMSA)</a></b><br>
+			With the mission of promoting peace and inviting the world towards the true message of Islam, the Ahmadiyya Muslim Students Association (AMSA) is a group designed to discover and celebrate the beautiful teachings of the worldwide Ahmadiyya Muslim Community.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/101/info"><img src="/clubs/101/logo/thumb" alt="AIESEC"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/101/info">AIESEC</a></b><br>
+			The world's largest youth-run non-profit organization, developing leadership in young people through global cross-cultural volunteer and internship exchanges.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/169/info"><img src="/clubs/169/logo/thumb" alt="ALAS (Association of Latin American Students)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/169/info">ALAS (Association of Latin American Students)</a></b><br>
+			Provide a space of entertainment and learning for Latin American students and those who love the Latino culture. We want to promote a space that cherish our multicultural community, while fostering an environment of respect and growth.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/127/info"><img src="/clubs/127/logo/thumb" alt="Amnesty International SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/127/info">Amnesty International SFU</a></b><br>
+			To show our dedication to the promotion and protection of human rights.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/356/info"><img src="/clubs/356/logo/thumb" alt="Anime Club - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/356/info">Anime Club - SFU</a></b><br>
+			To bring together like-minded students who wish to share their appreciation for anime and manga, and related interests/hobbies.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/776/info"><img src="/clubs/776/logo/thumb" alt="Arab Students' Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/776/info">Arab Students' Association</a></b><br>
+			The Arab Students' Association is here to celebrate the diverse cultures and experiences that unite under a collective Arab identity. The ASA aims at bringing together SFU's Arab students and all those who identify or connect with an Arab society. By holding a variety of cultural events, we also invite the broader community to engage with us.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/743/info"><img src="/clubs/743/logo/thumb" alt="Ascend Leadership"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/743/info">Ascend Leadership</a></b><br>
+			As the 2nd University Chapter of Ascend in Western Canada, Ascend SFU’s primary vision is to enhance the presence, influence, and visibility of current and future Pan-Asian leadership in our community through professional networking, mentorship, and internship opportunities.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/63/info"><img src="/clubs/63/logo/thumb" alt="Astronomy Club - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/63/info">Astronomy Club - SFU</a></b><br>
+			To promote and practice amateur astronomy and facilitate related activities at SFU and in the greater community. We welcome anyone interested in exploring our universe, our earth, or any space-related topics. Please view our website for links to join the community!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/802/info"><img src="/clubs/802/logo/thumb" alt="Backpacking Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/802/info">Backpacking Club</a></b><br>
+			To bring together a community of experienced hikers to tackle difficult and ambitious hikes, including those lasting for 2 or more days. Our focus is on providing the additional support, supplies, and planning required for these challenging but rewarding adventures.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/485/info"><img src="/clubs/485/logo/thumb" alt="Bangladesh Students' Alliance"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/485/info">Bangladesh Students' Alliance</a></b><br>
+			Promote the heritage of Bangladesh at SFU. Provide assistance to both new and existing students from Bangladesh. Organize social &amp; cultural events to create a multicultural acquaintanceship within the SFU community.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/544/info"><img src="/clubs/544/logo/thumb" alt="Bhangra - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/544/info">Bhangra - SFU</a></b><br>
+			To spread and promote health and well being as well as provide students with an avenue to connect with their artistic side as well as getting a great cardiovascular workout through the wonderful dance of Bhangra. Great for people of all cultures, backgrounds and dance levels.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/856/info"><img src="/clubs/856/logo/thumb" alt="Bowling 300"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/856/info">Bowling 300</a></b><br>
+			To provide an opportunity for students on campus to learn about the leisure activity of bowling and improve their skills through participation. We hope to make every interaction with this club a STRIKE!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/933/info"><img src="/clubs/933/logo/thumb" alt="BRASA SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/933/info">BRASA SFU</a></b><br>
+			BRASA SFU (Brazilian Students Association) is for Brazilian students and those interested in Brazilian culture. We celebrate Brazil's culture, art, and Portuguese language while fostering a sense of community. The club also emphasizes professional development through networking events, conferences, and partnerships with the global BRASA network.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/60/info"><img src="/clubs/60/logo/thumb" alt="Burnaby Mountain Toastmasters"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/60/info">Burnaby Mountain Toastmasters</a></b><br>
+			This club aims at improving members' public speaking skills and expanding their social network.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/420/info"><img src="/clubs/420/logo/thumb" alt="Campus Association of Baha'i Studies"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/420/info">Campus Association of Baha'i Studies</a></b><br>
+			A space created to discuss and share thoughts about various spiritual teachings and learn about engaging in the prevalent discourses of society. CABS seeks to provide a forum for students of all races, colours, classes, nationalities and religions to discuss the urgent issues facing society today.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/641/info"><img src="/clubs/641/logo/thumb" alt="Campus Vibe for Christ"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/641/info">Campus Vibe for Christ</a></b><br>
+			We are the light of the world and carriers of God’s presence, with a mandate. Awaken our campus to the love and purpose of Christ. Equip one another for a life of kingdom impact and deploy for multiplication as each one builds into another.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/619/info"><img src="/clubs/619/logo/thumb" alt="Canadian Cancer Society - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/619/info">Canadian Cancer Society - SFU</a></b><br>
+			Through a small group of motivated and passionate students, we help raise awareness of different types of cancers through awareness themed months. We also organize and host one of SFU’s biggest cancer related fundraisers, Relay for Life! Through these efforts, all proceeds are given directly to the Canadian Cancer Society.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/876/info"><img src="/clubs/876/logo/thumb" alt="Canadian Liver Foundation SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/876/info">Canadian Liver Foundation SFU</a></b><br>
+			We strive towards promoting liver disease awareness by providing education to the community. The CLF SFU Club actively engages in fundraising, volunteering and health promotion activities to support a worthwhile cause, by gathering donations for the CLF to fund liver disease research and patient treatment necessities.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/44/info"><img src="/clubs/44/logo/thumb" alt="Canadianized Asian Club (CAC)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/44/info">Canadianized Asian Club (CAC)</a></b><br>
+			Our goal as a student-led non-profit organization is to enhance student’s university experience, placing our membership body first. We strive to build an inclusive community that engages students through a variety of activities and events. We encourage students to join our executive committee to further their experience.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/533/info"><img src="/clubs/533/logo/thumb" alt="CaseIT"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/533/info">CaseIT</a></b><br>
+			CaseIT is team of likeminded individuals who organize and host an annual international business case competition with a strong Management Information Systems focus. CaseIT has strived to bridge technology and business by providing a platform for exceptional students from around the world to showcase their skills in case analysis and IT strategy.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/74/info"><img src="/clubs/74/logo/thumb" alt="Catholic Christian Outreach Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/74/info">Catholic Christian Outreach Club</a></b><br>
+			Focused on evangelization, we challenge young people to live in the fullness of the Catholic faith placing a strong emphasis on building leaders for the renewal of the world.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/513/info"><img src="/clubs/513/logo/thumb" alt="Chess Club - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/513/info">Chess Club - SFU</a></b><br>
+			The SFU Chess club provides the means of social activity, mutual helpfulness,recreation, and mental improvement.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/126/info"><img src="/clubs/126/logo/thumb" alt="Chinese Students and Scholars Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/126/info">Chinese Students and Scholars Association</a></b><br>
+			Our association is a non-profit, non-political, independent organization composed of mainly Chinese students and scholars studying and working at SFU. CSSA is dedicated to create a community for international students and enrich students' non-academic life by hosting various events including dance performances and other activities.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/151/info"><img src="/clubs/151/logo/thumb" alt="Choir - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/151/info">Choir - SFU</a></b><br>
+			To have fun and make awesome music! No experience necessary.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/175/info"><img src="/clubs/175/logo/thumb" alt="Christian Leadership Initiative - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/175/info">Christian Leadership Initiative - SFU</a></b><br>
+			SFU CLI runs the God &amp; Reason Lecture series:
+
+a public lecture series of scholars and students exploring the Christian worldview by applying aspects of philosophy, reason, and scholarship to discuss faith.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+					</td>
+		<td>
+			<b><a href="/clubs/57/info">Christian Students @ SFU</a></b><br>
+			"But flee youthful lusts, and pursue righteousness, faith, love, peace with those who call on the Lord out of a pure heart." 2 Timothy 2:22
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/65/info"><img src="/clubs/65/logo/thumb" alt="Concert Orchestra - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/65/info">Concert Orchestra - SFU</a></b><br>
+			We are an ensemble of musicians that is always expanding. We love playing because it's fun, no stress! If you play any orchestral or concert instrument feel free to contact us. We are here to promote the musical community at Burnaby campus.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/193/info"><img src="/clubs/193/logo/thumb" alt="Debate Society"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/193/info">Debate Society</a></b><br>
+			The official debating team for SFU and a member of the Canadian University Society for Intercollegiate Debate (CUSID). We are a group of passionate individuals dedicated to fostering an inclusive atmosphere, where everyone feels safe expressing their views. We hope to teach SFU Students how to debate, critically think and publicly speak well.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/912/info"><img src="/clubs/912/logo/thumb" alt="Developers &amp; Systems Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/912/info">Developers &amp; Systems Club</a></b><br>
+			Get together and work on cool collaborative programming projects with fellow members!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/864/info"><img src="/clubs/864/logo/thumb" alt="Dodo Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/864/info">Dodo Club</a></b><br>
+			Inspired by the elusive and extinct dodo, we believe that life is too short not to be enjoyed. As a club, we strive to provide a student support system promoting positivity and mental health. Social activities have included minigolf, arcade games, chatting on Discord, and movies with snacks.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/915/info"><img src="/clubs/915/logo/thumb" alt="EAT!SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/915/info">EAT!SFU</a></b><br>
+			Our club is open to all SFU students. We want this to be an inclusive and fun space for our peers to get together with like minded individuals and share their love about food as well as nurture a safe space to battle food insecurity.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/98/info"><img src="/clubs/98/logo/thumb" alt="Enactus SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/98/info">Enactus SFU</a></b><br>
+			To encourage entrepreneurship on our campuses and in the community through our various programs. We consider the relevant economic, social and environmental factors to effectively empower people in need
+by applying business and economic concepts and an entrepreneurial approach to improve their quality of life and standard of living.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/927/info"><img src="/clubs/927/logo/thumb" alt="Engineers Without Borders - SFU Chapter"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/927/info">Engineers Without Borders - SFU Chapter</a></b><br>
+			We are a global, Canadian-based humanitarian NGO tackling systemic issues clean drinking water and energy by using technical engineers' expertise. Students from all backgrounds can join our design teams to make an impact as well as engage in political advocacy for climate change, healthcare, and economic inequality. Visit our website to learn more!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/928/info"><img src="/clubs/928/logo/thumb" alt="Ethiopian &amp; Eritrean Students Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/928/info">Ethiopian &amp; Eritrean Students Association</a></b><br>
+			EESA aims to foster unity and support among Ethiopian and Eritrean students at Simon Fraser University.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/586/info"><img src="/clubs/586/logo/thumb" alt="Evangelical Chinese Bible Fellowship (ECBF)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/586/info">Evangelical Chinese Bible Fellowship (ECBF)</a></b><br>
+			Our Fellowship is composed of Chinese friends who graduate or study at SFU,  who love and follow Jesus with 10 years’ history.  We study bible together and share gospel to people who interested in Christianity with special focus on SFU international students, scholars and families from China through various events on and off campus.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/610/info"><img src="/clubs/610/logo/thumb" alt="Exercise is Medicine SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/610/info">Exercise is Medicine SFU</a></b><br>
+			To foster collaborative inter-professional relationships and leadership skills on campus between exercise,
+health and other disciplines that support the EIMC vision and goals.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/141/info"><img src="/clubs/141/logo/thumb" alt="Filipino Students Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/141/info">Filipino Students Association</a></b><br>
+			To promote the Filipino culture and traditions within the university
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/105/info"><img src="/clubs/105/logo/thumb" alt="Finance Student Association (FINSA)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/105/info">Finance Student Association (FINSA)</a></b><br>
+			FINSA is a group dedicated to help finance students attending SFU. Our goals are to help SFU Finance concentrators succeed while attending SFU and after graduating from SFU and help bring the SFU Finance community together.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/134/info"><img src="/clubs/134/logo/thumb" alt="Game Developers Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/134/info">Game Developers Club</a></b><br>
+			We're a safe haven for game developers at SFU. Our goal is to support and teach all aspects of game development, which we accomplish by hosting periodic meetings and tutorials for sharing skills. We also provide resources to those currently working on projects. 
+
+Join our discord and ask us any questions! ☃︎
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/466/info"><img src="/clubs/466/logo/thumb" alt="Giddha - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/466/info">Giddha - SFU</a></b><br>
+			Illustrating the simplicity and beauty of the Punjabi culture through the form of traditional folk dance Gidha .
+
+Classes open to everyone. No dance experience required.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/878/info"><img src="/clubs/878/logo/thumb" alt="Google Developer Student Club - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/878/info">Google Developer Student Club - SFU</a></b><br>
+			To empower students across all majors to use modern technology to solve real-life problems in our community. Our founding principles are growth, collaboration, and innovation, and we intend to keep this principle in every networking event, competition, tech talk, and workshop we organize.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/877/info"><img src="/clubs/877/logo/thumb" alt="Hanvoice SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/877/info">Hanvoice SFU</a></b><br>
+			HanVoice is an outlet to affect real grassroots change. Therefore, The club will equip, and empower students to engage meaningfully with North Korean human rights issues.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/622/info"><img src="/clubs/622/logo/thumb" alt="Hiking Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/622/info">Hiking Club</a></b><br>
+			To be up on a new mountaintop or leave footprints on a new hiking trail every chance that we get. And once we've exhausted every trail, park, terrain, peak, and forest in BC, we'll wake up one day and do it all over again.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/595/info"><img src="/clubs/595/logo/thumb" alt="Hillel Jewish Students Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/595/info">Hillel Jewish Students Association</a></b><br>
+			We organize events at SFU based on Jewish Values, such as tikkun olam (repairing the world) and tzedakah (acts of charity). We celebrate the Jewish holidays, develop educational programs, work on social action projects, and encourage Jews of all backgrounds to connect with one another at events. IG: @sfu_jsa
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/286/info"><img src="/clubs/286/logo/thumb" alt="Hip Hop Club - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/286/info">Hip Hop Club - SFU</a></b><br>
+			SFU HipHop club is a club devoted to the HipHop Culture. Our main goal is to share and educate about the HipHop dance culture. We introduce styles such as popping, locking, waving, house, breaking, waacking, and much more. It is a place where you meet new people, share the same interest, learn new skills, and in general have fun.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/710/info"><img src="/clubs/710/logo/thumb" alt="Hong Kong Society (HKS)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/710/info">Hong Kong Society (HKS)</a></b><br>
+			We essentially introduce Hong Kong traditions and culture, provide student-based services, encourage cultural exchange, and hold social events. Moreover, HKS aims at assisting students to adapt to the heart-warming environment in Vancouver, bonding them with close emotional attachments and building their self-confidence for future challenges.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/59/info"><img src="/clubs/59/logo/thumb" alt="Human Resources Student Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/59/info">Human Resources Student Association</a></b><br>
+			The Human Resources Student Association (HRSA) aims to serve the needs of Simon Fraser University students (business and non-business) by providing opportunities for social interaction among the student body with scholarly and professional interests from multiple disciplines within the field of Human Resource Management.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/278/info"><img src="/clubs/278/logo/thumb" alt="Indian Student Federation (ISF)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/278/info">Indian Student Federation (ISF)</a></b><br>
+			Our club purpose is to speak out and unite all prospective, current and Alumni Indian students in SFU. Our vision is to organize cultural events and help Indian students build a network with one another.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/25/info"><img src="/clubs/25/logo/thumb" alt="Indonesian Association - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/25/info">Indonesian Association - SFU</a></b><br>
+			The Indonesian Association (IA) is a non-profit student-led organisation that welcomes and unites Indonesian students at Fraser International College and Simon Fraser University. We strive to promote a fun and rewarding university experience for all our members through various social events.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/894/info"><img src="/clubs/894/logo/thumb" alt="Indoor Climbing Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/894/info">Indoor Climbing Club</a></b><br>
+			People who have or would like to gain interest in indoor rock climbing. We hope that all our experiences ROCK!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+					</td>
+		<td>
+			<b><a href="/clubs/128/info">International Club</a></b><br>
+			The International Club is for all students: international, UWC grads, immigrant, and Canadian. Our club is about bringing students together; building a better cross-cultural understanding; and learning more about international relations through our many activities and events. Also, the club provides an important social support network for students.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/282/info"><img src="/clubs/282/logo/thumb" alt="InterVarsity Undergraduate at SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/282/info">InterVarsity Undergraduate at SFU</a></b><br>
+			Through Christ's love, we are ordinary peoples doing extraordinary things on the SFU campus. We are making SFU home by reconciling God, peoples and land in relationship with all our heart, mind, soul and strength in Christ.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/27/info"><img src="/clubs/27/logo/thumb" alt="Iranian Club - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/27/info">Iranian Club - SFU</a></b><br>
+			To encourage and promote Iranian culture and heritage among its members. This is achieved through organizing social activities. Iranian Club also tries to improve the link between Iranians and other cultures as we believe in both unity and diversity.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/117/info"><img src="/clubs/117/logo/thumb" alt="Ismaili Students Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/117/info">Ismaili Students Association</a></b><br>
+			A Religious Organization designed to create fun and exciting Internal and External events that engage the Post-Secondary Shia Ismaili Muslim community, and the wider SFU student body.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/34/info"><img src="/clubs/34/logo/thumb" alt="Japanese Network - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/34/info">Japanese Network - SFU</a></b><br>
+			We are a socializing club that encourages students to learn about Japanese culture through the events we create.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/212/info"><img src="/clubs/212/logo/thumb" alt="Jazz Band - Simon Fraser"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/212/info">Jazz Band - Simon Fraser</a></b><br>
+			The SFU Jazz Band aims to provide an opportunity for jazz musicians and enthusiasts to 	rehearse and perform in a ‘BIG BAND’ setting within the SFU community.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/426/info"><img src="/clubs/426/logo/thumb" alt="JDC West - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/426/info">JDC West - SFU</a></b><br>
+			JDC West is the largest student-run business competition in Western Canada that showcases academics, athletics, debate, and a social competition.The competition provides students with the opportunity to compete in all facets of business, while developing networking, critical thinking and leadership skills.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/591/info"><img src="/clubs/591/logo/thumb" alt="Jesus Disciples Movement"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/591/info">Jesus Disciples Movement</a></b><br>
+			We follow Christ’s last Great Commission. Being a Christian is about imitating Christ’s life of love, serving, and sacrificing for others. We wish to share these values to the SFU student community and train them to be Christ-like, so that they can teach others to the same and in this way it can positively impact the world. (Korean club)
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/54/info"><img src="/clubs/54/logo/thumb" alt="Korean Storm (K.STORM)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/54/info">Korean Storm (K.STORM)</a></b><br>
+			K.STORM is a non-profit student group that aims to promote Korean culture and media to all students from all nations. We are a social friendly community that allows members to meet new people and enjoy their university life with us.​​
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/923/info"><img src="/clubs/923/logo/thumb" alt="Kurds Students Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/923/info">Kurds Students Association</a></b><br>
+			We aim to create an inclusive space for individuals from various different background to come together and learn about the diverse aspects of the ancient Kurdish heritage. Through activities, discussions, and events, we seek to deepen understanding and appreciation for Kurdish traditions, languages, art, music, and historical narratives.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/125/info"><img src="/clubs/125/logo/thumb" alt="Latin Dance Passion - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/125/info">Latin Dance Passion - SFU</a></b><br>
+			The goal of Latin Dance Passion is to provide salsa and bachata dance lessons for students in a friendly environment, and at an affordable rate. We also make frequent outings to Latin dance events around Metro Vancouver to engage with the local Latin dance community.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/32/info"><img src="/clubs/32/logo/thumb" alt="Love Your Neighbour Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/32/info">Love Your Neighbour Club</a></b><br>
+			Love Your Neighbour club is a volunteer club with an international network of branches. We are dedicated to serving both the communities we live in as well as globally.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/122/info"><img src="/clubs/122/logo/thumb" alt="Malaysia Singapore Students Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/122/info">Malaysia Singapore Students Club</a></b><br>
+			To provide a social club for Malaysian and Singapore students and those interested in the related cultures of these countries.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/102/info"><img src="/clubs/102/logo/thumb" alt="Management Information Systems Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/102/info">Management Information Systems Association</a></b><br>
+			MISA (Management Information Systems Association) promotes the Faculty of Business Administration concentration of Management Information Systems on campus to inform students of career paths in MIS.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/93/info"><img src="/clubs/93/logo/thumb" alt="Model United Nations - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/93/info">Model United Nations - SFU</a></b><br>
+			Model United Nation will explore different forums within the United Nations and will aim to teach members how MUN works while enhancing their understanding of politics and adding new skills such as quick problem solving and public speaking.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/861/info"><img src="/clubs/861/logo/thumb" alt="Music Discussion Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/861/info">Music Discussion Club</a></b><br>
+			We aim to to provide a welcoming space for discussion of music. Discussion will first and foremost be fun &amp; informative. Everyone stands to learn something new from others with different tastes and lived experiences. This is not a club where you have to know the ins and outs of music theory, but you are welcome to share any knowledge you do have!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/45/info"><img src="/clubs/45/logo/thumb" alt="Muslim Students Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/45/info">Muslim Students Association</a></b><br>
+			To provide prayer facilities, religious information and services, and to foster social connections for all Muslim students on campus. 
+Also to provide awareness and education of Islam for the greater community |
+Facebook: facebook.com/sfumsa/ | 
+Twitter: @SFU_MSA | IG: SFU_MSA
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/919/info"><img src="/clubs/919/logo/thumb" alt="NeuraXtension"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/919/info">NeuraXtension</a></b><br>
+			NeuraXtension targets SFU students keen on learning more about neurotechnology in its everyday use in laboratory and medical settings, day-to-day life, and the business-tech field. The club aims to provide resources, workshops/seminars, networking opportunities, and more!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/935/info"><img src="/clubs/935/logo/thumb" alt="Nritya Shakti"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/935/info">Nritya Shakti</a></b><br>
+			We plan to include SFU students who practice any of the 8 indian classical dance forms: Bharatanatyam, Kathak, Kuchipudi, Odissi, Kathakali, Sattriya, Manipuri and Mohiniyattam.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/920/info"><img src="/clubs/920/logo/thumb" alt="Operation Smile SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/920/info">Operation Smile SFU</a></b><br>
+			The vision of the Operation Smile SFU club is to work towards a world where no child suffers from a lack of access to safe oral and maxillofacial surgery. All SFU students who are passionate about helping others and interested in medicine or dentistry are welcome!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/38/info"><img src="/clubs/38/logo/thumb" alt="Outdoors Club - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/38/info">Outdoors Club - SFU</a></b><br>
+			To support and encourage exploration of the great outdoors by students at SFU.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/263/info"><img src="/clubs/263/logo/thumb" alt="Pakistan Students Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/263/info">Pakistan Students Association</a></b><br>
+			To promote Pakistani culture, cuisine and way of life; and to promote multi-culturalism at SFU.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/925/info"><img src="/clubs/925/logo/thumb" alt="Palestinian Youth Movement (PYM SFU)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/925/info">Palestinian Youth Movement (PYM SFU)</a></b><br>
+			The target audience of the PYM club at SFU is primarily Palestinian and Arab students, but we welcome anyone interested in our mission and activities. We aim to create an inclusive and diverse community of students who are passionate about social justice, Palestinian rights, and cultural exchange.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/869/info"><img src="/clubs/869/logo/thumb" alt="PennyDrops at SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/869/info">PennyDrops at SFU</a></b><br>
+			PennyDrops is a student-run non-profit organization that champions financial literacy among Canadian youth. The PennyDrops at SFU Chapter aims to engage the SFU community in being a part of the financial literacy movement in Canada.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/24/info"><img src="/clubs/24/logo/thumb" alt="Phi Delta Epsilon"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/24/info">Phi Delta Epsilon</a></b><br>
+			As a co-ed fraternity, we aim to dispel the competitive stereotypes associated with pre-med students and foster lifelong friendships between women and men pursuing a career in medicine. Through our philanthropy, leadership opportunities, and academic excellence, we hope to instill in our members the skills necessary to excel in the medical field.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/170/info"><img src="/clubs/170/logo/thumb" alt="Power to Change (P2C)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/170/info">Power to Change (P2C)</a></b><br>
+			To help students discover Jesus. We want to add spiritual value to students' lives during their time in university by providing them with opportunities to explore spiritual things through meaningful conversations in the context of discussion groups, meetings and special events.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/491/info"><img src="/clubs/491/logo/thumb" alt="Pre-Law Society - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/491/info">Pre-Law Society - SFU</a></b><br>
+			The SFU Pre-Law Society is intended for all students who plan on pursuing a future career or education in law. The Pre-Law Society aims to connect students involved in the law school admission process through hosting meetings, events and information sessions.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/22/info"><img src="/clubs/22/logo/thumb" alt="Pre-Med Society - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/22/info">Pre-Med Society - SFU</a></b><br>
+			The SFU Pre-Med Society is a group of students interested in entering the field of medicine. Info on admissions, med school options, and the MCAT plus interview prep, volunteering, hearing from current med students, and networking with other pre-meds. Join us! SFU clubs/students/external organizations, please contact: premedsfu@gmail.com
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/299/info"><img src="/clubs/299/logo/thumb" alt="Pre-Vet &amp; Animal Wellness Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/299/info">Pre-Vet &amp; Animal Wellness Club</a></b><br>
+			The SFU Pre-Vet &amp; Animal Wellness Club aims to connect animal lovers and those considering a career in vet medicine. We provide a place where students can discuss topics related to the career, attend vet/animal-related events, and share their experiences in the veterinary world. This will better prepare students for vet school and the job itself.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/689/info"><img src="/clubs/689/logo/thumb" alt="Provincial BC Conservatives"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/689/info">Provincial BC Conservatives</a></b><br>
+			The Provincial BC Conservatives at SFU hopes to provide unique and exciting opportunities for students to participate within the political community and engage with other like-minded individuals.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/111/info"><img src="/clubs/111/logo/thumb" alt="Punjabi Student Association - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/111/info">Punjabi Student Association - SFU</a></b><br>
+			The Simon Fraser University Punjabi Student Association was established by SFU students in 1996. The PSA has created an avenue for students at SFU to discover and celebrate the richness of  Punjabi culture along with allowing students to make positive contributions in the community.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/665/info"><img src="/clubs/665/logo/thumb" alt="Pursuit of Happiness"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/665/info">Pursuit of Happiness</a></b><br>
+			Pursuit of Happiness aims to promote the importance of mental and physical health, and nurture a safe and supportive network for students. We address the challenges of overall wellness experienced by the members of our community through engaging events.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/907/info"><img src="/clubs/907/logo/thumb" alt="Reclaim Tech"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/907/info">Reclaim Tech</a></b><br>
+			New communications technology isn't going anywhere. But it has impacted mental health, community building, political society and individual rights. Reclaim Tech hopes to bring awareness to online theft of information, algorithmic content suggestion, and disinformation campaigns, and provide community for fellow concerned tech users.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/657/info"><img src="/clubs/657/logo/thumb" alt="Redeemed Christian Fellowship (RCF)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/657/info">Redeemed Christian Fellowship (RCF)</a></b><br>
+			A People Who Dare To Be Different...Building Lives For Christ
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/930/info"><img src="/clubs/930/logo/thumb" alt="Rock Music Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/930/info">Rock Music Club</a></b><br>
+			The Rock Music Club is here to bring SFU students who are passionate about rock music together. If you are a musicians, vocalists, or fan of any subgenre, then this club is for you.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/644/info"><img src="/clubs/644/logo/thumb" alt="Satellite Design Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/644/info">Satellite Design Club</a></b><br>
+			To discuss, design, plan, and build artificial satellites and their mission profiles.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/885/info"><img src="/clubs/885/logo/thumb" alt="Science Fiction and Fantasy Bookclub"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/885/info">Science Fiction and Fantasy Bookclub</a></b><br>
+			To encourage students to enjoy reading beyond their assigned texts.  SFF today is a diverse genre, and we hope to introduce more students to it and to foster understanding and enjoyment through discussion.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/809/info"><img src="/clubs/809/logo/thumb" alt="Science Undergraduate Research Journal (SURJ)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/809/info">Science Undergraduate Research Journal (SURJ)</a></b><br>
+			SFU SURJ looks to promote undergraduate research by providing young scientists exposure and recognition for their work while undergoing a peer review process. Ultimately, we hope to foster a community of undergraduates who value research while engaging all student as in science communication and education.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/708/info"><img src="/clubs/708/logo/thumb" alt="SFU Artists"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/708/info">SFU Artists</a></b><br>
+			A club for artists of any kind to connect and collaborate.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/652/info"><img src="/clubs/652/logo/thumb" alt="SFU ASL Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/652/info">SFU ASL Club</a></b><br>
+			An opportunity for those interested, learning or fluent in American Sign Language to practice and socialize. 
+Through movies, videos, and events, we learn about Deaf culture and the Deaf community. We also provide resources and information for those looking to learn ASL or improve their current skills.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/498/info"><img src="/clubs/498/logo/thumb" alt="SFU Befikre Dance Team"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/498/info">SFU Befikre Dance Team</a></b><br>
+			SFU Befikre (bae-fik-ray-carefree) Dance Team is a group inspired by South Asian dance styles and Bollywood free style.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/677/info"><img src="/clubs/677/logo/thumb" alt="SFU Blood, Organ, and Stem Cell Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/677/info">SFU Blood, Organ, and Stem Cell Club</a></b><br>
+			SFU Blood, Organ, and Stem Cell Club aims to raise awareness about the need for blood, organ and stem cell donors while providing students/members of the SFU community the opportunity to join this cause.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+					</td>
+		<td>
+			<b><a href="/clubs/934/info">SFU Calisthenics Club</a></b><br>
+			The club aims to attract individuals interested in bodyweight exercises and learning skills like handstands, handstand push-ups, front levers, and planches. It welcomes those passionate about calisthenics, offering a supportive community for skill development and shared enthusiasm for the sport
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/903/info"><img src="/clubs/903/logo/thumb" alt="SFU Circus Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/903/info">SFU Circus Club</a></b><br>
+			Runaway and join the circus... right here at SFU! Learn juggling and a variety of other forms of object manipulation like plate spinning, flower sticks, and contact juggling. Train with and learn from your fellow students in a casual, relaxing environment. Open to all levels of experience from complete beginners to experienced circus artists.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/897/info"><img src="/clubs/897/logo/thumb" alt="SFU Comics &amp; Graphic Novels Club (SFU CGNC)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/897/info">SFU Comics &amp; Graphic Novels Club (SFU CGNC)</a></b><br>
+			A club for anyone interested in comics and graphic novels as a storytelling medium! We’re super welcoming to all levels of comics enthusiasts, from seasoned fans to complete newcomers. This is an opportunity to open up to new stories and perspectives, develop critical thinking skills, and become part of a passionate community of friends.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/857/info"><img src="/clubs/857/logo/thumb" alt="SFU Competitive Programming"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/857/info">SFU Competitive Programming</a></b><br>
+			We exist for the purpose of providing an environment for practicing, learning, and enjoying competitive programming. We are trying to build up a team and be competitive in the Northwest region of North America.
+
+To join our practices and compete with us, or to just hang out and discuss programming, join our Discord!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/627/info"><img src="/clubs/627/logo/thumb" alt="SFU Conservatives"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/627/info">SFU Conservatives</a></b><br>
+			The SFU Conservatives Club is chartered with protecting respectful discussion and engagement opportunities for students of conservative ideologies on SFU campuses through internal networking events.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/850/info"><img src="/clubs/850/logo/thumb" alt="SFU Creative Writing Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/850/info">SFU Creative Writing Club</a></b><br>
+			SFU Creative Writing facilitates the collection, creation, and publication of creative writing by SFU students. It provides a space for people to share literary works that are meaningful to them. Members exchange published and original works, discuss them, and help provide feedback on request. Please join our discord to join our club activities
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/932/info"><img src="/clubs/932/logo/thumb" alt="SFU Cybersecurity Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/932/info">SFU Cybersecurity Club</a></b><br>
+			SFU Cybersecurity Club aims to foster a supportive community for students to explore and advance their knowledge in cybersecurity through workshops, CTF competitions, collaborative projects, while promoting ethical practices and enhancing real-world skills. [Discord: https://discord.gg/dN6vh8qV]
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/916/info"><img src="/clubs/916/logo/thumb" alt="SFU Cycling"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/916/info">SFU Cycling</a></b><br>
+			The target audiences of the club are ALL SFU students that want to venture into the physical activity of road cycling. Rides will take place on paved and designated cycling pathways, and helmets are mandatory.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/676/info"><img src="/clubs/676/logo/thumb" alt="SFU Dragon Boat"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/676/info">SFU Dragon Boat</a></b><br>
+			To promote and build a welcoming, inclusive, and supportive community around the sport of dragon boat paddling at SFU. Additionally, SFU Dragon Boat facilitates the creation and support of the day to day operation of SFU dragon boat teams.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/709/info"><img src="/clubs/709/logo/thumb" alt="SFU Esports Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/709/info">SFU Esports Association</a></b><br>
+			To serve as a unifying brand for various student led gaming communities across the region
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/763/info"><img src="/clubs/763/logo/thumb" alt="SFU First Responders"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/763/info">SFU First Responders</a></b><br>
+			To provide those with an interest in first aid, regardless of skill level or experience, with the opportunity to learn new skills, maintain current ones, and meet others with similar interests. To become a member simply join our discord https://discord.gg/gqSb7bDvJz (Joining on gosfss doesn’t add you automatically to our contact list)
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/891/info"><img src="/clubs/891/logo/thumb" alt="SFU Foodie Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/891/info">SFU Foodie Club</a></b><br>
+			A must join for all SFU Students! Our club provides a fun, welcoming, and inclusive community where SFU students can explore a wide range of super fun activities, discover new interests, and explore new cuisines together. We want our foodies to have fun, enjoy good food, and make meaningful connections along the way.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/744/info"><img src="/clubs/744/logo/thumb" alt="SFU French Conversation Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/744/info">SFU French Conversation Club</a></b><br>
+			The SFU French Conversation Club is open to all members of the SFU community who like to speak French. We aim to create a casual place for French speakers of various skill levels to enjoy conversation and games, practising the langue de Molière the whole time!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/906/info"><img src="/clubs/906/logo/thumb" alt="SFU Golf Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/906/info">SFU Golf Club</a></b><br>
+			We plan to target all SFU students who are passionate about the game of golf. Our aim is to create a community for golf enthusiasts to learn, grow, and connect with players of all skill levels. We hope to make golf enjoyable for everyone and encourage more students to begin playing.
+Follow us on Instagram @ sfugolfclub
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/637/info"><img src="/clubs/637/logo/thumb" alt="SFU Hanfu Culture Society"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/637/info">SFU Hanfu Culture Society</a></b><br>
+			We aim to raise the awareness of many lost/endangered aspects of Chinese traditional culture with an emphasis on clothing, also known as the Hanfu.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/908/info"><img src="/clubs/908/logo/thumb" alt="SFU Heart and Stroke Foundation (SFUHSF)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/908/info">SFU Heart and Stroke Foundation (SFUHSF)</a></b><br>
+			Individuals with the desire to raise awareness about heart and stroke conditions including but not limited to: people who have been impacted by these conditions, people who wish to contribute to funding treatment related to these condition and people who wish to learn more about the conditions.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/911/info"><img src="/clubs/911/logo/thumb" alt="SFU Hindu Yuva"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/911/info">SFU Hindu Yuva</a></b><br>
+			We plan to target all SFU students as well as professors and staff who are interested in learning more about the hindu culture.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/807/info"><img src="/clubs/807/logo/thumb" alt="SFU Knitting Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/807/info">SFU Knitting Club</a></b><br>
+			The purpose of SFU Knitting Club is to facilitate healthy stress-reduction techniques to improve student well-being. This club will teach students valuable skills so they can create something they are proud of.
+
+Stay connected by following SFU Knitting Club on Instagram and Facebook!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/918/info"><img src="/clubs/918/logo/thumb" alt="SFU Lung Health Initiative"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/918/info">SFU Lung Health Initiative</a></b><br>
+			SFU Lung Health Initiative (LHI) introduces students to unique and common topics in lung health, participates in fundraising initiatives for pulmonary health research, and highlights careers with a focus in pulmonology. We also work to foster a community for students interested in lung health by hosting social events.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/811/info"><img src="/clubs/811/logo/thumb" alt="SFU LYFE"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/811/info">SFU LYFE</a></b><br>
+			SFU LYFE is a personal and professional development platform that hosts social and career development events as we emphasize having a work-life balance. We also run various projects, such as our blog and podcast, so be sure to check out our Instagram @sfulyfeclub
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/433/info"><img src="/clubs/433/logo/thumb" alt="SFU Magic the Gathering Club (MTG)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/433/info">SFU Magic the Gathering Club (MTG)</a></b><br>
+			The SFU MTG Club is designed to support those who enjoy playing Magic the gathering or who want to give it a try. We aim to create an environment that is both safe and inviting for everyone to have fun and meet new people who share their interests!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/837/info"><img src="/clubs/837/logo/thumb" alt="SFU Mechanical Keyboards Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/837/info">SFU Mechanical Keyboards Club</a></b><br>
+			To introduce students to the joy of mechanical keyboards and hosting meet ups to share and show off custom boards.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/924/info"><img src="/clubs/924/logo/thumb" alt="SFU New Democratic Party"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/924/info">SFU New Democratic Party</a></b><br>
+			The SFU NDP's primary focus is to engage and empower young students between the ages of 18 and 30. We aim to ensure youth on the SFU Campus are involved in the political discourse. However, it is important to note the SFU NDP is an inclusive organization, welcoming students of all ages and from diverse academic backgrounds. We operate on the SFU Burnaby, SFU Vancouver, and SFU Surrey campuses. We represent both the Federal NDP Party and BC NDP Party. ( updated June 24th, 2024.)
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/867/info"><img src="/clubs/867/logo/thumb" alt="SFU OS Development"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/867/info">SFU OS Development</a></b><br>
+			We bring together students from different backgrounds to collaborate on projects that positively impact our community. Members gain practical experience to build project portfolios with guidance from the Open Source Community.
+
+Join our discord here: https://discord.gg/8CSRTyPXJ4
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/120/info"><img src="/clubs/120/logo/thumb" alt="SFU Peak Frequency"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/120/info">SFU Peak Frequency</a></b><br>
+			To provide performance opportunities for student musicians and foster a musical environment where people can socialize and share a common interest.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/817/info"><img src="/clubs/817/logo/thumb" alt="SFU Pokemon Go Official Group"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/817/info">SFU Pokemon Go Official Group</a></b><br>
+			Official campus trade/pvp/raid group! Doesn't matter what team you are on, come meet other players in the SFU community!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/868/info"><img src="/clubs/868/logo/thumb" alt="SFU Polyglots"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/868/info">SFU Polyglots</a></b><br>
+			SFU Polyglots aims to provide a casual and friendly environment for students to meet and discuss all things related to languages, including language acquisition, and language exchange, with fellow members of the SFU community.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/270/info"><img src="/clubs/270/logo/thumb" alt="SFU Pre-Dental Society"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/270/info">SFU Pre-Dental Society</a></b><br>
+			Our club focuses on informing students interested in pursuing a future in dentistry on the application process; DAT, the pre-requisites, current entrance statistics, and various other qualities looked for in potential candidates, to inform as many students of as many possibilities open to them in the future.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/929/info"><img src="/clubs/929/logo/thumb" alt="SFU Quantum Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/929/info">SFU Quantum Club</a></b><br>
+			SFU Quantum Club raises awareness of quantum computing and industry opportunities. We host info sessions, hands-on workshops in tools like Qiskit, paper discussions, mentorships with grad students, and industry site visits. Our goal is to empower students with skills and connections to lead in the transformative field of quantum technology.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/846/info"><img src="/clubs/846/logo/thumb" alt="SFU Real Estate Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/846/info">SFU Real Estate Club</a></b><br>
+			The SFU Real Estate Club is a student led organization that allows students to be exposed to the real estate world through events and projects. Our vision is to create a community amongst the students interested in real estate and help them grow their network within the industry.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/721/info"><img src="/clubs/721/logo/thumb" alt="SFU Robot Soccer"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/721/info">SFU Robot Soccer</a></b><br>
+			SFU Robot Soccer club aims to combine the excitement of soccer with the future of automated technology as we compete in RoboCup. Our team encourages students from all programs to learn concepts that are not taught in class and get hands-on experience with robotics, artificial intelligence, and teamwork.
+
+Join our Discord via: linktr.ee/sfurs
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/917/info"><img src="/clubs/917/logo/thumb" alt="SFU Robotics Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/917/info">SFU Robotics Club</a></b><br>
+			SFU students that are interested in learning about robotics and/or participating in robotics related activities (ex. competitions)
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/620/info"><img src="/clubs/620/logo/thumb" alt="SFU Sports Analytics Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/620/info">SFU Sports Analytics Club</a></b><br>
+			Where data and sports come together. We aim to connect individuals interested in sports, data, or analysis to share ideas and opinions. As data is more prevalent and publicly available than ever, we promote the importance of usage of data to investigate sports-related issues in the light of improving performance and strategies.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/167/info"><img src="/clubs/167/logo/thumb" alt="SFU Students Refugee Action"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/167/info">SFU Students Refugee Action</a></b><br>
+			SFU Students Refugee Action is dedicated to supporting students from refugee backgrounds by fostering an inclusive community and raising awareness about refugee-related issues. Through the WUSC Student Refugee Program, we sponsor six refugee students annually. We also engage the SFU student community in education, advocacy, and fundraising initiatives to promote global and local refugee support efforts.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/831/info"><img src="/clubs/831/logo/thumb" alt="SFU Surge"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/831/info">SFU Surge</a></b><br>
+			We are a community for students in tech to learn from industry professionals at conferences and talks, to hone skills and experience at large-scale hackathons and competitions, to network at events and workshops to enable community innovation, and to gain project experience working on software used by SFU students.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/880/info"><img src="/clubs/880/logo/thumb" alt="SFU Swifties"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/880/info">SFU Swifties</a></b><br>
+			A club for fans of music to talk about anything and everything with a shared interest in Taylor Swift's music and projects :)
+
+For timely updates and announcements, please follow our instagram page or Discord server (located on the linktree website)
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/900/info"><img src="/clubs/900/logo/thumb" alt="SFU Thaqalyn Muslim Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/900/info">SFU Thaqalyn Muslim Association</a></b><br>
+			As a collective, TMA SFU aims to embody and promote the values of the Quran, the Holy Prophet PBUH and his holy Household within our society and on campus, as we prepare for the reappearance of the Imam of our time. In addition, we hope to provide an inclusive, supportive and accepting environment for Muslim students at Simon Fraser University.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/898/info"><img src="/clubs/898/logo/thumb" alt="SFU Transit Enthusiasts Club (SFU TEC)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/898/info">SFU Transit Enthusiasts Club (SFU TEC)</a></b><br>
+			Welcome to the SFU Transit Enthusiasts Club (SFU TEC)! Join us for discussions about Public Transit in Metro Vancouver and the world, and even for some urban planning too! Most of our discussion takes place on our discord server, but we do have in-person meetings once a month!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/147/info"><img src="/clubs/147/logo/thumb" alt="Sikh Students' Association - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/147/info">Sikh Students' Association - SFU</a></b><br>
+			Establish a strong network for those who are exploring the Sikh way of life. We hope to achieve this by promoting Sikh values such as equality, peace and truthful living in order to create a strong and united Sikh community at Simon Fraser University.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/29/info"><img src="/clubs/29/logo/thumb" alt="Simon Fraser Investment Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/29/info">Simon Fraser Investment Club</a></b><br>
+			The Simon Fraser Investment Club prepares students for careers in financial services and investing in public and private markets.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/629/info"><img src="/clubs/629/logo/thumb" alt="Ski and Snowboard Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/629/info">Ski and Snowboard Club</a></b><br>
+			The Ski and Snowboard club is focused on bringing together the SFU shred community, regardless of abilities on the slopes! We're just a group of RAD people looking for more RAD people to be RAD with! If you're looking for good times, and to make some turns on the slopes this season, this club is for you!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/517/info"><img src="/clubs/517/logo/thumb" alt="Smash Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/517/info">Smash Club</a></b><br>
+			To provide a place for students to play the popular video game franchise Super Smash Bros., both competitively and casually.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+					</td>
+		<td>
+			<b><a href="/clubs/838/info">Socialist Alternative Youth</a></b><br>
+			Socialist Alternative Youth realizes that capitalism is incapable of providing a society where the working class and its allies can have a good quality of life on a healthy planet. Therefore, we work both for reforms now and for a mass democratic socialist transformation of society.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/851/info"><img src="/clubs/851/logo/thumb" alt="Speech and Hearing Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/851/info">Speech and Hearing Club</a></b><br>
+			This club is for prospective Speech-Language Pathologists and Audiologists who want to maximize their ability to get into graduate school.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/839/info"><img src="/clubs/839/logo/thumb" alt="STEM Fellowship"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/839/info">STEM Fellowship</a></b><br>
+			Non-profit organization at SFU that strives to engage future leaders and innovators in science, technology, engineering, and mathematics.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+					</td>
+		<td>
+			<b><a href="/clubs/207/info">Student Marketing Association</a></b><br>
+			The Student Marketing Association (SMA) is SFU’s creative and innovative marketing-based student club. Students from all faculties join together in this organization to gain skills in marketing, event coordination, and leadership, planning numerous social and professional events throughout the year. <br>
+
+
+<br>
+
+<br>
+Instagram: https://www.instagram.com/sfusma/
+<br>
+Linkedin: https://www.linkedin.com/company/sfu-student-marketing-association
+<br>
+Facebook: https://www.facebook.com/SFUStudentMarketingAssociation
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/142/info"><img src="/clubs/142/logo/thumb" alt="Surrey Badminton Club - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/142/info">Surrey Badminton Club - SFU</a></b><br>
+			The Surrey Badminton Club promotes Badminton to all SFU Students, particularly at SFU Surrey Campus. This club welcomes any skill level/gender and will enforce a safe zone for all participants.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/899/info"><img src="/clubs/899/logo/thumb" alt="Tabletop"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/899/info">Tabletop</a></b><br>
+			Tabletop is a club dedicated to building a safe, accessible, and welcoming community where students can play board games, roleplaying games, and many other tabletop games together.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/148/info"><img src="/clubs/148/logo/thumb" alt="Taiwanese Association - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/148/info">Taiwanese Association - SFU</a></b><br>
+			SFUTA was established in 1989, We are the bridge between Canada and Taiwan. We are a social and cultural club that promotes an engaging university experience. SFUTA成立於1989年，我們是加拿大和台灣之間的橋樑。我們是一個多元文化社團，旨在促進學生參與大學的生活體驗。
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/675/info"><img src="/clubs/675/logo/thumb" alt="Team Phantom: SFU Formula SAE Electric"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/675/info">Team Phantom: SFU Formula SAE Electric</a></b><br>
+			The goal of this club is to compete in the Formula SAE Electric Competition. The club will do this by designing and creating a fully electric vehicle using engineering principles.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/931/info"><img src="/clubs/931/logo/thumb" alt="Thai Students Association (THAISA)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/931/info">Thai Students Association (THAISA)</a></b><br>
+			Thai Students Association aims to give all SFU students an opportunity to experience Thai culture through a variety of social events and activities. Everyone is welcome, from students interested in Thai culture to those who are connected to the Thai community. We hope you join us!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/870/info"><img src="/clubs/870/logo/thumb" alt="The FentaNIL Project at SFU (TFP)"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/870/info">The FentaNIL Project at SFU (TFP)</a></b><br>
+			The FentaNIL Project (TFP) is dedicated to reducing the impact of the opioid crisis by educating students about harm reduction and how they can help others who are struggling with addiction. We will teach the public how to recognize and respond to overdoses by recommending students obtain naloxone kits. IG: @fentanilsfu
+Contact: gmb4@sfu.ca
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/94/info"><img src="/clubs/94/logo/thumb" alt="The Point"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/94/info">The Point</a></b><br>
+			A club on campus whose goal is to Love God, Love People, Serve All, by hosting events open to those part of The Point Church and to those who are not.  Through worship and service, we aim to foster a positive atmosphere on campus where students can explore what it means to follow Jesus.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/168/info"><img src="/clubs/168/logo/thumb" alt="Thé SFU Tea"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/168/info">Thé SFU Tea</a></b><br>
+			We aim to encourage and maintain the appreciation of tea in all forms.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/936/info"><img src="/clubs/936/logo/thumb" alt="Turkic Student Union"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/936/info">Turkic Student Union</a></b><br>
+			The SFU Turkic Student Union aims to promote cultural exchange within the SFU community. Through events, workshops, and collaborations, we strive to create an inclusive space for learning, networking, and embracing the rich diversity of Turkic heritage.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/913/info"><img src="/clubs/913/logo/thumb" alt="Ukrainian Student Society"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/913/info">Ukrainian Student Society</a></b><br>
+			Ukrainian Student Society wants to celebrate Ukrainian identity, culture, and language. We also want to bring awareness about russian aggression and aid Ukraine to help to win the battle for liberty and freedom.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/166/info"><img src="/clubs/166/logo/thumb" alt="UNICEF - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/166/info">UNICEF - SFU</a></b><br>
+			Our focus is to advocate, educate, and fundraise to join the global effort of reversing child-focused humanitarian issues in the developing world.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/15/info"><img src="/clubs/15/logo/thumb" alt="University Bible Fellowship"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/15/info">University Bible Fellowship</a></b><br>
+			To help students study the Bible and live according to its teachings.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/92/info"><img src="/clubs/92/logo/thumb" alt="University Christian Ministries"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/92/info">University Christian Ministries</a></b><br>
+			UCM SFU is a Christian community of students at Simon Fraser University. We exist to know and love God, love one another, care for all of our campuses, and tell others about Jesus.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/211/info"><img src="/clubs/211/logo/thumb" alt="UPhoto Photography Club"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/211/info">UPhoto Photography Club</a></b><br>
+			Everyone who is interested in photography is welcome to join UPhoto. You don't have to be a professional photographer or own a fancy camera to participate in our events. Our goal is simple: to provide those who are interested in photography a platform to have fun and to learn skills from others!
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/89/info"><img src="/clubs/89/logo/thumb" alt="Vietnamese Student Association"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/89/info">Vietnamese Student Association</a></b><br>
+			An official group for all Vietnamese students and all those who are interested in Vietnamese culture at Simon Fraser University.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/192/info"><img src="/clubs/192/logo/thumb" alt="Vocal Jazz- SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/192/info">Vocal Jazz- SFU</a></b><br>
+			To spread musical joy throughout the SFU campus.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/833/info"><img src="/clubs/833/logo/thumb" alt="Women in Clean Tech"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/833/info">Women in Clean Tech</a></b><br>
+			Women in Clean Tech (WiCT) is an all-inclusive club aiming to connect students in STEM, as well as facilitate clean tech initiatives and projects for our club members. Follow @wict_sfu on Instagram for all updates!
+While the focus of this club is to connect and support the women student body interested in this field, all are welcome to join.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/255/info"><img src="/clubs/255/logo/thumb" alt="Women In Engineering"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/255/info">Women In Engineering</a></b><br>
+			Women in Engineering club stands for diversity, inclusion, and representation of minorities in engineering. We are a club that aims to empower women in STEM through events with a focus toward outreach, support, and career development.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/634/info"><img src="/clubs/634/logo/thumb" alt="Women in STEM"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/634/info">Women in STEM</a></b><br>
+			Women in STEM (WiSTEM) is allied with all students of different backgrounds and identities to create a supportive environment in all fields of STEM. Our main focus is to connect with women through various outreach and networking environments (e.g., study sessions, panels, mixers). This club is open to everyone to join.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/354/info"><img src="/clubs/354/logo/thumb" alt="Young Liberals of Canada - SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/354/info">Young Liberals of Canada - SFU</a></b><br>
+			The SFU YLC's goals are to ensure adequate representation of youth within the Liberal Party of Canada; promote and espouse the views of Young Liberals on a regular basis internally and externally to the Liberal Party of Canada; develop and educate Young Liberals in the various aspects of the political process.
+		</td>
+	</tr>
+		<tr>
+		<td class="logo">
+						<a href="/clubs/146/info"><img src="/clubs/146/logo/thumb" alt="Young Women in Business SFU"></a>
+					</td>
+		<td>
+			<b><a href="/clubs/146/info">Young Women in Business SFU</a></b><br>
+			YWiB SFU strives to engage leaders from all faculties through opportunities for personal and professional growth. We encourage members to achieve success on their own terms through our programs that focus on mentorship, networking, philanthropy and tangible skill building.
+To join YWiB please apply via our website:
+www.ywib.ca/sfu/programs
+		</td>
+	</tr>
+		</tbody></table>
