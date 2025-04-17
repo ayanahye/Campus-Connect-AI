@@ -2,18 +2,79 @@
 Transit:
 --------------------------------------------------------------------------------
 1. What type of public transportation is available in Vancouver?
+Vancouver has several types of public transportation:
+Buses - includes regular buses, express buses (marked with 'X'), RapidBus routes (marked with 'R'), and NightBus service (routes starting with 'N').
+SkyTrain - includes the Expo Line which connects downtown Vancouver, Burnaby, and Surrey, the Canada Line which connects downtown Vancouver, Richmond, and the YVR airport, and the Millenium Line which connects Downtown Vancouver with the cities of Burnaby, Coquitlam, and Port Moody.
+SeaBus - a passenger ferry in Vancouver, BC, that connects downtown Vancouver with North Vancouver 
+HandyDART - a door-to-door, shared-ride service for people with disabilities
+West Coast Express - a commuter train service that operates during peak commuter hours, typically Monday to Friday. It travels between Downtown Vancouver and Mission, with multiple stations along the route. The service can run up to 5 trains a day. 
+These transportation options form an integrated network where passengers can transfer between different modes using the Compass Card payment system or U-Pass for students.
+
 2. How do I access bus and SkyTrain services?
+For payment:
+Use a Compass Card, which you can purchase at SkyTrain stations, London Drugs stores, and other locations
+As an alternative, you can tap a contactless debit or credit card
+For buses only, you can also pay with cash (though this provides a bus transfer ticket, not a Compass Card)
+As a student, you might be eligible for the U-Pass BC program through your institution
+For using the services:
+Plan your trip using the TransLink website, TransLink mobile app, or Google Maps
+For buses, wait at a marked bus stop with the correct route number
+To exit a bus, pull the yellow cord or press one of the red buttons to request your stop
+For SkyTrain, enter through the fare gates at the station using your Compass Card or contactless payment
+Transfers between services are valid for 90 minutes when using a Compass Card
+If you need accessibility options, HandyDART provides door-to-door service for those unable to use conventional transit without assistance.
+
 3. What is a typical fare for Vancouver SkyTrain and bus?
+Vancouver uses a zone-based fare system. A single adult fare costs approximately $3.10-$4.45 depending on the zones traveled and the time of day.
+For international students and those attending recognized post-secondary institutions, there's access to the U-Pass BC program, which provides unlimited transit use at a discounted rate. This is typically included in student fees.
+Customers can save money by purchasing a Compass Card and loading either passes or stored value. For convenience, you can also tap a contactless debit or credit card or buy a bus transfer ticket using cash.
+Note that when departing from airport stations on the Canada Line, a $5 AddFare applies, though this is waived for U-Pass holders.
+Not paying the correct fare could result in a $173 fine.
+
 4. Do students get a discount for public transit?
+Yes, students do get discounts for public transit in Vancouver:
+International students (and by extension, all eligible students) at recognized post-secondary institutions can get a discounted Compass Card called the "U-Pass BC." This provides unlimited transit use across the network.
+The U-Pass BC is typically included in your student fees automatically. As a student, you need to link this pass to a physical Compass Card, which you can obtain at any SkyTrain station or London Drugs store.
+This is a significant discount compared to regular fares, as it provides unlimited travel on all TransLink services rather than paying the standard $3.10-$4.45 per trip.
+
 5. How do I commute to SFU Burnaby?
+You can commute to SFU Burnaby by taking bus routes 145 from Production Way University station, R5 from Burrard station, 143 from Burquitlam station, or 144 from Metrotown station. If you plan on taking the the 145 from Production Way University and you're departing from Surrey skytrain stations, remember to change trains at Columbia Station.
+For the most accurate and up-to-date information about the best route based on your starting location, it's recommended to check the TransLink website or mobile app, which can provide you with personalized trip planning.
 --------------------------------------------------------------------------------
 SFU Immigration FAQ:
 --------------------------------------------------------------------------------
 1. As an international student, how can I extend my stay in Canada?
+You can extend your stay in Canada by following these steps:
+- Submit a study permit extension application before your current permit expires. It is recommended to apply 4-6 months prior to the expiry date due to varying processing times.
+- You must be physically inside Canada when applying for a study permit extension.
+- As long as IRCC receives your extension application before your current permit expires, you'll have "maintained status" allowing you to stay in Canada until a decision is made on your application.
+- While on maintained status, you can continue studying and working (if eligible) under the same conditions as before, even if your permit expires during processing.
+
 2. Am I allowed to travel outside of Canada while on maintained status?
+No, you should not travel outside of Canada while on maintained status. Specifically, maintained status is only applicable in Canada; if you travel outside of Canada and your study permit expires while you are away, you may not resume your study or work until your study permit extension application has been approved and you meet the requirements.
+This means that if you leave Canada while your study permit extension is being processed and your original permit expires during your trip, you will lose your maintained status and will not be able to study or work upon return until your extension application is approved.
+
 3. I need to extend my study permit but my passport is about to expire, what should I do?
-4. What are the minimum number of credits I need to be considered full-time status at SFU?
+Since your passport is about to expire, you should still apply to extend your study permit before it expires to maintain your legal status in Canada. Include a letter of explanation in your application stating why your passport isn't renewed yet, when you expect the new one, and proof you’ve started the renewal process.
+Start renewing your passport ASAP through your country’s embassy or consulate. Once you receive it, send it to IRCC via the web form and ask them to attach it to your application.
+As long as you apply on time, you’ll be under maintained status, meaning you can stay, study, and work (if eligible) while waiting for a decision.
+
+4. What are the minimum number of credits I need to be considered a full-time student at SFU?
+To be considered full-time at SFU for immigration purposes:
+Undergraduate students must be enrolled in at least 9 units in a term (Spring, Summer, or Fall).
+Graduate students are full-time if they are:
+- In per-term fee programs,
+- Enrolled in a thesis/project/capstone/field exam,
+- Or enrolled in 6+ units per term in per-unit fee programs.
+Some exceptions (like co-op, exchange, or CAL-approved reduced load) may still count as full-time.
+
 5. How many hours can international students work off campus?
+As of November 8, 2024, eligible international students at SFU can work up to 24 hours per week off campus during regular academic sessions.
+During scheduled breaks (like summer break or winter holidays), they can work full-time off campus.
+To be eligible, you must:
+- Meet SFU’s full-time status (or be part-time in your final term),
+- Meet IRCC’s work eligibility,
+- And have a valid SIN (Social Insurance Number).
 --------------------------------------------------------------------------------
 SFU Housing:
 --------------------------------------------------------------------------------
