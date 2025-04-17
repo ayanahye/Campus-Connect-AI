@@ -1,6 +1,8 @@
 import pandas as pd
 
 df = pd.read_csv("original_2021_bc_cost_by_household_type.csv")
+df = df.dropna()
+df.to_csv("no_na_original_bc_cost_ht.csv", index=False)
 
 qa_pairs = []
 
@@ -10,4 +12,5 @@ for index, row in df.iterrows():
     qa_pairs.append([question, answer])
 
 qa_df = pd.DataFrame(qa_pairs, columns=["question", "answer"])
+qa_df = qa_df.dropna()
 qa_df.to_csv("qa_pairs_household_type.csv", index=False)
