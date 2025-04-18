@@ -206,11 +206,13 @@ Honestly, it's up to you, feel free to try anything and we can discuss results i
 
 I think our presentation + paper can focus on evaluation of RAG system specifically as well as getting relevant data and constructing our benchmark datasets.
 
+Side side note: Of course we would want actual international students to evaluate our system (and ofc throughout the design process) but due to time constraints this might not be possible. To discuss still.
+
 Here's my proposed skeleton:
 
 - **Introduction** (what is RAG, why evaluation matters, how do we build and evaluate RAG for international students)
 
-- **Building the RAG System** (data sources, retriever and generator models), example queries
+- **Building the RAG System** (data sources, retriever and generator models, example queries, prompt tuning process (manual review or similarity metric to benchmark dataset))
 
 - **Creating the Benchmark Dataset** (why a benchmark, our process, evaluation metrics used)
 
