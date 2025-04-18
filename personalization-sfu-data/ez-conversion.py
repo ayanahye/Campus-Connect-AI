@@ -13,7 +13,7 @@ qa_pairs = []
 for club_name, description in matches:
     cleaned_description = ' '.join(description.splitlines()).strip()
     
-    question = f"What is the description of the club {club_name} at SFU?"
+    question = f"What are clubs or activities related to {club_name} at SFU?"
     answer = cleaned_description
     qa_pairs.append([question, answer])
 
