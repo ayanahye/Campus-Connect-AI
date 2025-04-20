@@ -1,5 +1,7 @@
 # Evaluation of Unseen Data in Our RAG System
 
+Disclaimer - although i called seen and unseen data, these questions may have appeared in the training set but we cannot verify. By seen and unseen i am referring to whether its in our documents.
+
 Note: This dataset is primarily designed to evaluate the model's ability to provide precise, up-to-date, and reliable anwers for international student queries (e.g. question answering) using its pretrained knowledge and our docs.
 
 Some of the questions are intentionally a bit ambiguous or multi-faceted to test how well the model could handle these cases.
