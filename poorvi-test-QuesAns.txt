@@ -79,15 +79,76 @@ To be eligible, you must:
 SFU Housing:
 --------------------------------------------------------------------------------
 1. Is there any benefit of living on SFU residence as an international undergrad?
+Yes, there are several benefits to living in SFU residence as an international undergraduate student. As an international student, you'll join a diverse community with residents from over 70 countries. Living on campus provides you with a private, single-occupancy room that you can personalize to your liking. Academic benefits include higher GPAs and graduation rates compared to off-campus students. You'll have easier access to campus resources and services, which is particularly helpful when navigating a new country and university system. The residence experience promotes a sense of community and friendship, making it easier to adjust to life in Canada. You'll receive support from professional live-in staff and student support teams, and have access to 24-hour meal plans from September to April. SFU Residence also offers programs specifically designed to support academic success and personal growth, creating a supportive environment for international students.
+
 2. How much approximately does it cost to live on SFU on campus housing vs off campus rental?
+SFU's on-campus housing costs range from $3,636 to $4,580 per term (4 months) depending on the accommodation type:
+North Towers: Single rooms at $3,636, Super Singles at $4,108, and Singles with Bath at $4,580
+Courtyard Residence: Single rooms at $4,440
+McTaggart Cowan Hall: Singles at $4,160
+Townhouses: Singles at $4,008
+Most residences require a mandatory meal plan costing $3,549 per term, though it's optional for McTaggart Cowan Hall and Townhouses. Additional fees include the Residence Hall Association fee ($13) and optional parking ($185-$235 per term).
+In total, an international undergraduate can expect to pay approximately $7,200-$8,100 per term ($3,650-$4,550 for housing plus $3,549 for the meal plan).
+
 3. Are there any resources available from SFU to search for off campus accomodation?
-4. What options are available for SFU on campus housing?
+Yes, SFU partners with Places4Students to help students find off-campus housing. This service is free for SFU students and provides rental listings in three key areas:
+Burnaby: https://www.places4students.com/Places/School.aspx?SchoolID=xCSJ%2fv5WiAA%3d
+Vancouver: https://www.places4students.com/Places/School?SchoolID=jKylFPwtNwo%3d
+Surrey: https://www.places4students.com/Places/School?SchoolID=bYv20Rltgyc%3d
+Places4Students specializes in student rental housing options, though it's important to note that SFU doesn't screen, inspect, or approve any landlords or accommodations listed on the platform. Before renting off-campus, SFU recommends that students familiarize themselves with the BC Tenancy Act.
+The university also provides resources on how to spot and avoid rental scams. If you have specific housing questions, you can contact SFU's housing office directly at housing@sfu.ca.RetryClaude can make mistakes. Please double-check responses.
+
+4. What options are available for SFU on-campus housing?
+SFU offers 9 different residence communities across the Burnaby and Vancouver campuses. Here are your on-campus housing options:
+For undergraduate students:
+North Towers: Single rooms, Super Singles, and Singles with Bath
+Courtyard Residence: Single rooms
+McTaggart Cowan Hall: Single rooms
+Townhouses: Single rooms 
+East/West Towers (rates to be determined)
+All rooms at SFU are single occupancy, so you don't have to share your personal space. Most undergraduate residences require a mandatory meal plan ($3,549 per term), though it's optional for McTaggart Cowan Hall and Townhouses.
+SFU also offers specialized housing communities, including:
+- Gender-inclusive housing
+- Living learning communities
+- Graduate housing (available at Vancouver campus)
+- Single-gender floors (limited availability in select buildings)
+- Family housing
+First-year undergraduates who apply before May 1 and accept SFU admission by May 1 are guaranteed housing through the First Year Guarantee program. Applications for Fall term housing open on October 1, and it's recommended that you apply as early as possible due to high demand.
+
 5. Do I have to pay for meal plans if I live on campus? What kind of meal plan is available?
+At SFU, meal plan requirements depend on which residence you choose:
+Required meal plan ($3,549 per term): North Towers, Courtyard Residence, East/West Towers
+Optional meal plan: McTaggart Cowan Hall, Townhouses
+SFU Residence offers an all-you-care-to-eat meal plan that's available 24 hours a day from September to April. This gives you unlimited access to dining facilities throughout the academic year.
+
 --------------------------------------------------------------------------------
 SFU General FAQ:
 --------------------------------------------------------------------------------
 1. When and how will my transfer credit be applied to my student record?
+Your transfer credit will be applied to your student record during the admission process after your application is completed. This means the assessment and application of transfer credits happens automatically as part of processing your admission to SFU. If you wish to appeal your transfer credit assessment, you should note that appeals are only assessed after you have accepted your offer of admission. During the assessment process, SFU may request additional documentation from your previous post-secondary institution, such as detailed course outlines that include course objectives, duration, weekly hours, evaluation methods, textbooks used, and credits earned.
+
 2. Is there any financial support available for students, especially for international students?
+Yes, SFU offers several types of financial support for students, including international students:
+For international students specifically:
+The Undergraduate Scholars Entrance Scholarship (USES) Program is available to both domestic and international high school applicants who demonstrate academic excellence and community contributions. These scholarships range from CAD $20,000 to $140,000.
+International students are automatically enrolled in temporary medical insurance for their first term while waiting for BC MSP coverage.
+
+General financial support options include:
+Scholarships (based on academic achievement)
+Awards (recognizing various achievements or qualities)
+Bursaries (awarded based on demonstrated financial need)
+Work-study opportunities
+Tuition waivers
+
+Important notes for international students:
+International students are not eligible for Canadian government student loans and grants
+U.S. citizens studying at SFU may be eligible for U.S. government student loans
+
 3. What kind of health services are available to SFU students?
+SFU students have access to a wide range of health services, including medical care from doctors and nurses, as well as mental health support from counselors, psychologists, psychiatrists, social workers, and mental health nurses. The MySSP app also offers 24/7 virtual mental health support. International students are required to have both primary medical insurance (BC MSP) and secondary insurance (SFSS Extended Health and Dental Plan), which together cover services like doctor visits, hospital care, prescriptions, dental and vision care, and more.
+
 4. I am struggling academically, is there any tutoring available?
+Yes, tutoring and academic support are available at SFU if you're struggling. The Student Learning Commons (SLC) offers help with writing, studying, research, and time management in a peer-learning environment. You can also access peer tutors and mentors through various faculty-specific programs. Academic Advisors are available to help you navigate your academic challenges, and if you're experiencing ongoing difficulties, you're encouraged to connect with them for guidance and planning support.
+
 5. What is an SFU computing ID and how do I get one?
+An SFU Computing ID is the part of your SFU email address that comes before "@sfu.ca" and is used to log in to most SFU digital services. It's different from your 9-digit student number. With your Computing ID, you can access Wi-Fi, SFU Mail, Canvas, goSFU, online library resources, and more. You'll receive your Computing ID after accepting your offer of admission, and while most services are available right away, some—like email—may take up to an hour after activation to become fully accessible.
