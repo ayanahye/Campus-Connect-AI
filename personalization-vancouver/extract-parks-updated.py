@@ -17,7 +17,7 @@ for park in parks_data:
     hectare = park.get("hectare")
     google_map_dest = park.get("googlemapdest")
 
-    question = f"Where is {park_name} located, and does it have facilities and washrooms?"
+    question = f"Where is {park_name} located, where can I find more information, and does it have facilities and washrooms?"
     answer = (
         f"{park_name} is located at {street_number} {street_name}, in the {neighbourhood_name} area. "
         f"For more information, you can visit the neighbourhood page at {neighbourhood_url}. "
