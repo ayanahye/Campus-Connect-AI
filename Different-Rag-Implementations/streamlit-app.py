@@ -8,22 +8,51 @@ from langchain.embeddings import HuggingFaceEmbeddings
 import chromadb
 import uuid
 from llama_cpp import Llama
+import re
+import difflib
+import concurrent.futures
+from dotenv import load_dotenv
 
-model_path = "/Users/poorvibhatia/Desktop/Projects/Campus-Connect-AI/Different-Rag-Implementations/Llama-3.2-1B-Instruct-IQ3_M.gguf"
-model = Llama(model_path=model_path, n_ctx=2048, n_threads=8)
-repo_id = "google/gemma-2-2b-it"
+load_dotenv()
 hf_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+
+#model_path = "/Users/poorvibhatia/Desktop/Projects/Campus-Connect-AI/Different-Rag-Implementations/Llama-3.2-1B-Instruct-IQ3_M.gguf"
+model_path = "./Llama-3.2-1B-Instruct-IQ3_M.gguf"
+model = Llama(model_path=model_path, n_ctx=2048, n_threads=8)
+#repo_id = "google/gemma-2-2b-it"
+#hf_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 st._is_running_with_streamlit = True
 
+prefix = "../all_data/"
+
 file_names = [
-    "General-Study-Permit-Questions/study_permit_general",
-    "WorkPermits-For-Students/work_permit_student_general",
-    "Work-Study-Data-and-Scripts/work-study-data-llm",
-    "Transit-Data-Ques-Ans/vancouver_transit_qa_pairs",
-    "Permanent-residence-for-students/permanent_residence_student_general",
-    "Health-Data-and-Scripts-for-Chatbot/data-with-sources",
-    "SFU-Faq-Data/sfu-faq-with-sources"
+    "study_permit_general", "work_permit_student_general", "work-study-data-llm",
+    "vancouver_transit_qa_pairs", "permanent_residence_student_general", "data-with-sources",
+    "faq_qa_pairs_general", "hikes_qa", "sfu-faq-with-sources", "sfu-housing-with-sources",
+    "sfu-immigration-faq", "park_qa_pairs-up", "cultural_space_qa_pairs_up",
+    "qa_pairs_food", "qa_pairs_year_and_month_avg", "qa_pairs_sfu_clubs"
 ]
+
+collection_map = {
+    "study": "study_permit_general",
+    "student work": "work_permit_student_general",
+    "work-study": "work-study-data-llm",
+    "transit": "vancouver_transit_qa_pairs",
+    "permanent residence": "permanent_residence_student_general",
+    "general info": "data-with-sources",
+    "faq": "faq_qa_pairs_general",
+    "hiking": "hikes_qa",
+    "sfu faq": "sfu-faq-with-sources",
+    "housing": "sfu-housing-with-sources",
+    "immigration": "sfu-immigration-faq",
+    "parks": "park_qa_pairs-up",
+    "culture": "cultural_space_qa_pairs_up",
+    "food": "qa_pairs_food",
+    "weather": "qa_pairs_year_and_month_avg",
+    "clubs": "qa_pairs_sfu_clubs"
+}
+
+#file_names = [prefix + file for file in file_names]
 
 # all_texts = []
 
@@ -47,7 +76,8 @@ file_names = [
 #         print(f"Error loading {file}: {e}")
 
 embedding_model = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/paraphrase-MiniLM-L6-v2"
+    model_name="sentence-transformers/paraphrase-MiniLM-L6-v2",
+    model_kwargs={"use_auth_token": hf_token}
 )
 
 client = chromadb.PersistentClient(path="./chroma_db")
@@ -60,57 +90,138 @@ collection = client.get_or_create_collection(name="combined_docs")
 
 # print(f"successfully added {len(all_texts)} documents.")
 
-def add_data_to_collection_batch(collection, texts, batch_size=3):
-    for idx in range(0, len(texts), batch_size):
-        try:
-            batch_texts = texts[idx: idx + batch_size]
+collections = {}
+batch_size = 32
 
-            embeddings = embedding_model.embed_documents(batch_texts)
 
-            batch_ids = [str(uuid.uuid4()) for _ in batch_texts]
+def process_file(file):
+    try:
+        path = prefix + file + ".csv"
+        #path = f'../Data/{file}.csv'
+        if not os.path.exists(path):
+            return f"{file} skipped (file not found)."
 
-            collection.add(
-                ids=batch_ids,
-                embeddings=embeddings,
-                documents=batch_texts
-            )
-            print(f"successfully added {len(batch_texts)} documents (Batch {idx}-{idx + batch_size - 1})")
-        except Exception as e:
-            print(f"Error processing batch starting at index {idx}: {e}")
+        df = pd.read_csv(path, usecols=lambda col: col.lower() in {"question", "answer"})
+        df.columns = df.columns.str.lower()
+
+        if "question" not in df.columns or "answer" not in df.columns:
+            return f"{file} skipped (missing question/answer columns)."
+
+        df = df.drop_duplicates(subset="question")
+        df["text"] = df["question"].fillna('') + ' ' + df["answer"].fillna('')
+        unique_texts = list(set(df["text"].dropna().tolist()))
+
+        collection = client.get_or_create_collection(name=file)
+        for i in range(0, len(unique_texts), batch_size):
+            batch = unique_texts[i:i + batch_size]
+            embeddings = embedding_model.embed_documents(batch)
+            ids = [str(uuid.uuid4()) for _ in batch]
+            collection.add(ids=ids, embeddings=embeddings, documents=batch)
+
+        collections[file] = collection
+        return f"{file}: Loaded {len(unique_texts)} docs."
+    except Exception as e:
+        return f"{file}: Error - {e}"
+
+# parallelogram
+with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+    results = list(executor.map(process_file, file_names))
+
+for result in results:
+    print(result)
 
 # add_data_to_collection_batch(collection, all_texts)
 # print(f"successfully added {len(all_texts)} documents to the Chroma collection.")
 
-def get_relevant_documents(query, n_results=3):
-    try:
-        query_embeddings = embedding_model.embed_documents([query])[0]
+def get_relevant_documents(query, categories, n_results=2):
+    all_results = []
+    query_embedding = embedding_model.embed_documents([query])[0]
 
-        results = collection.query(query_embeddings=[query_embeddings], n_results=n_results)
-        print(f"Query Results: {results}")
+    for category in categories:
+        collection_name = collection_map[category]
+        if collection_name in collections:
+            try:
+                result = collections[collection_name].query(
+                    query_embeddings=[query_embedding],
+                    n_results=n_results
+                )
+                docs = result.get("documents", [[]])[0]
+                sims = result.get("distances", [[]])[0]
 
-        return results['documents'][0] if results['documents'] else []
-    except Exception as e:
-        print(f"Error querying: {e}")
-        return []
+                all_results.extend(zip(docs, sims))
+            except Exception as e:
+                print(f"error querying {collection_name}: {e}")
+
+    all_results = sorted(all_results, key=lambda x: x[1])
+
+    return all_results[:n_results]
+
+
+valid_categories = list(collection_map.keys())
+fallback_category = "faq"
+
+def classify_query(query):
+    category_prompt = f"""
+    You are a classifier for a Q&A system for international students in British Columbia.
+    Choose the **1 most relevant** category from this list, or at most 3 if absolutely needed (comma-separated):
+
+    {", ".join(valid_categories)}
+
+    Query: "{query}"
+
+    Return only the category name(s) as a comma-separated string.
+    """
+
+    response = model(category_prompt, max_tokens=50, temperature=0)["choices"][0]["text"].strip().lower()
+    print("Raw out:", response)
+
+    tokens = re.findall(r'\b\w+\b', response)
+
+    matched = []
+    for token in tokens:
+        closest = difflib.get_close_matches(token, valid_categories, n=1, cutoff=0.8)
+        if closest and closest[0] not in matched:
+            matched.append(closest[0])
+        if len(matched) == 3:
+            break
+
+    if fallback_category not in matched:
+      matched.append(fallback_category)
+
+    return matched[:3]
+
     
 def generate_answer(query):
-    response_before_rag = model(query, max_tokens=200, temperature=0.1)["choices"][0]["text"]
+    categories = classify_query(query)
+    print(f"Categories {categories}\n")
+    relevant_documents = get_relevant_documents(query, categories)
 
-    relevant_documents = get_relevant_documents(query)
     if not relevant_documents:
         return {
-            "Before RAG Response": response_before_rag,
             "After RAG Response": "Sorry, no relevant documents found."
         }
 
-    relevant_texts = "\n\n".join(relevant_documents)
+    #relevant_documents = list(set(relevant_documents))
+
+    seen = set()
+    unique_docs = []
+    for doc, sim in relevant_documents:
+        if doc not in seen:
+            seen.add(doc)
+            unique_docs.append((doc, sim))
+
+    print("Relevant Documents with Similarity Scores:")
+    for doc, sim in unique_docs:
+        print(f"Similarity: {sim:.4f}\nDoc: {doc}\n")
+
+    relevant_texts = "\n\n".join([doc for doc, _ in unique_docs])
+
     rag_prompt = f"""
-    You are a helpful assistant for international students. Here are relevant documents:
+    You are a helpful assistant for international students new to British Columbia Canada. Here are relevant documents:
 
     {relevant_texts}
 
-    Please respond to the following question based on the documents above. Be conversational but concise:
-
+    Please respond to the following question. Be conversational but concise, aim to answer accurately using the documents, but in as few words as possible (i.e. less than 20). DO NOT USE THE DOCUMENTS IF THEY ARE NOT HELPFUL FOR THE QUERY. Do not ask the user irrelevant questions unless it relates to their query.
     Question: {query}
 
     Answer:
@@ -119,9 +230,9 @@ def generate_answer(query):
     response_after_rag = model(rag_prompt, max_tokens=300, temperature=0.1)["choices"][0]["text"]
 
     return {
-        "Before RAG Response": response_before_rag,
         "After RAG Response": response_after_rag
     }
+
 
 import nest_asyncio
 nest_asyncio.apply()
@@ -129,6 +240,8 @@ nest_asyncio.apply()
 st.title("Simple Chatbot")
 
 user_query = st.text_input("Ask me a question: ")
+
+benchmark_data = pd.read_csv("../all_data/seen-data.csv")
 
 if st.button("Generate Answer"):
     if user_query:
@@ -144,3 +257,13 @@ if st.button("Generate Answer"):
 # print("User Query:", user_query)
 # print("Response Before RAG:", responses["Before RAG Response"])
 # print("Response After RAG:", responses["After RAG Response"])
+
+'''
+running:
+- streamlit run streamlit-app.py
+or
+- python -m streamlit run streamlit-app.py
+
+http://localhost:8501
+'''
+
