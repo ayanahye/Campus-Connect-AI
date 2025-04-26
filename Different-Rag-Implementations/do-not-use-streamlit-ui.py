@@ -75,14 +75,7 @@ collection_map = {
 #     except Exception as e:
 #         print(f"Error loading {file}: {e}")
 
-embedding_model = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/paraphrase-MiniLM-L6-v2",
-    model_kwargs={"use_auth_token": hf_token}
-)
 
-client = chromadb.PersistentClient(path="./chroma_db")
-
-collection = client.get_or_create_collection(name="combined_docs")
 
 # data = pd.DataFrame({"text": all_texts})
 # data = data.drop_duplicates()
@@ -124,11 +117,7 @@ def process_file(file):
         return f"{file}: Error - {e}"
 
 # parallelogram
-with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
-    results = list(executor.map(process_file, file_names))
-
-for result in results:
-    print(result)
+ 
 
 # add_data_to_collection_batch(collection, all_texts)
 # print(f"successfully added {len(all_texts)} documents to the Chroma collection.")
@@ -192,6 +181,7 @@ def classify_query(query):
 
     
 def generate_answer(query):
+    '''
     categories = classify_query(query)
     print(f"Categories {categories}\n")
     relevant_documents = get_relevant_documents(query, categories)
@@ -215,13 +205,11 @@ def generate_answer(query):
         print(f"Similarity: {sim:.4f}\nDoc: {doc}\n")
 
     relevant_texts = "\n\n".join([doc for doc, _ in unique_docs])
-
+    '''
     rag_prompt = f"""
-    You are a helpful assistant for international students new to British Columbia Canada. Here are relevant documents:
+    You are a helpful assistant for international students new to British Columbia Canada. 
 
-    {relevant_texts}
-
-    Please respond to the following question. Be conversational but concise, aim to answer accurately using the documents, but in as few words as possible (i.e. less than 20). DO NOT USE THE DOCUMENTS IF THEY ARE NOT HELPFUL FOR THE QUERY. Do not ask the user irrelevant questions unless it relates to their query.
+    Please respond to the following question. Be conversational but concise.
     Question: {query}
 
     Answer:
@@ -232,6 +220,7 @@ def generate_answer(query):
     return {
         "After RAG Response": response_after_rag
     }
+
 
 
 import streamlit as st
@@ -395,6 +384,7 @@ if submit_button and user_query:
     st.session_state.messages.append({"role": "bot", "content": bot_response})
     st.rerun()
 
+
 # user_query = "How do I commute in vancouver and how can I get to SFU?"
 # responses = generate_answer(user_query, category)
 
@@ -402,10 +392,12 @@ if submit_button and user_query:
 # print("Response Before RAG:", responses["Before RAG Response"])
 # print("Response After RAG:", responses["After RAG Response"])
 
+
 #running:
 #- streamlit run do-not-use-streamlit-ui.py
 #or
 #- python -m streamlit run do-not-use-streamlit-ui.py
 
 #http://localhost:8501
+
 
