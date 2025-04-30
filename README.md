@@ -3,10 +3,7 @@
 ## Interface Demo
 
 <p>
-  <video width="450" controls>
-    <source src="./CCAI-DEMO.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <img src="ccai-gif.gif" width="450"/>
 </p>
 
 ## The Problem 
