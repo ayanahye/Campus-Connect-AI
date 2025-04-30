@@ -1,5 +1,14 @@
 # Campus-Connect-AI: BorealisAI Let's Solve it 2025
 
+## Interface Demo
+
+<p>
+  <video width="450" controls>
+    <source src="./CCAI-DEMO.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
 ## The Problem 
 International students often face challenges when transitioning to a new country, including navigating unfamiliar environments, understanding local customs, managing administrative tasks, and accessing essential resources such as housing, healthcare, immigration policies, and financial services. Canada had 1,040,985 international students at all levels of study at the end of 2023 [1], reflecting the growing demand for better support systems. Additionally, the number of study permit holders with a valid permit in Canada from 2000 to 2022 has increased significantly [1], highlighting the increasing need for accessible resources.
 

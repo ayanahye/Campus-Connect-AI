@@ -222,166 +222,136 @@ def generate_answer(query):
     }
 
 
-
 import streamlit as st
-import pandas as pd
-import nest_asyncio
-nest_asyncio.apply()
 
 st.set_page_config(page_title="Campus Connect AI", page_icon="CC", layout="wide")
 
 st.markdown("""
-    <style>
-    body {
-        background: linear-gradient(to bottom, #cce6ff, white);
-    }
-    .reportview-container {
-        background: linear-gradient(to bottom, #cce6ff, white);
-    }
-            
-    .stApp {
-        background: linear-gradient(to bottom, #cce6ff, white); !important;
-        background-attachment: fixed !important;
-        min-height: 100vh;
-    }
-            
-    .header {
-        text-align: center;
-        font-size: 36px;
-        font-weight: bold;
-        color: black;
-        
-        padding: 1rem;
-        border-radius: 12px;
-        margin-bottom: 2rem;
-    }
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
-    .chat-container {
+    .simple-header {
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+        background: linear-gradient(90deg, #cce6ff 0%, #99ccff 100%);
+        box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+        border-radius: 0 0 8px 8px;
+        font-family: 'Patrick Hand', cursive;
         display: flex;
         flex-direction: column;
-        gap: 1rem;
-        padding: 1rem;
-        max-width: 600px;  
-        margin: 0 auto; 
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        margin-bottom: 20px;
+    }
+
+    .simple-header h1 {
+        font-size: 3rem;
+        margin: 0;
+        padding: 0;
+        color: #003366;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+        font-family: 'Patrick Hand', cursive;
+    }
+
+    .simple-header .subheader {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.25rem;
+        color: #0059b3;
+        margin-top: 0.25rem;
+        font-weight: 600;
     }
 
     .user-message {
-        background-color: white;
-        border: 1px solid grey;
-        border-right: 4px solid black;
-        padding: 8px;
-        border-radius: 10px;
+        background-color: white !important;
+        border-right: 4px solid black !important;
+        margin-left: auto;
+        margin-bottom: 1rem;
+        border-radius: 18px;
+        padding: 12px 16px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
         max-width: 70%;
-        margin-left: auto;  
-        margin-bottom: 1rem;  
+        animation: fadeIn 0.3s ease-out;
     }
 
     .bot-message {
-        background-color: white;
-        border: 1px solid grey;
-        border-left: 4px solid black;
-        padding: 8px;
-        border-radius: 10px;
-        max-width: 70%;
-        margin-right: auto;  
-        margin-top: 1rem;  
+        background-color: white !important;
+        border-left: 4px solid black !important;
+        margin-right: auto;
         margin-bottom: 1rem;
+        border-radius: 18px;
+        padding: 12px 16px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        max-width: 70%;
+        animation: fadeIn 0.3s ease-out;
     }
 
-    .input-container {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        width: 100%;
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 999px;
-        padding: 0.25rem;
-       
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
     }
 
-    .text-input {
-        flex: 1;
-        padding: 0.75rem;
-        border: none; 
-        background-color: white;
-        border-radius: 999px;
-    }
-            
-    stHorizontalBlock {
-      background-color: white;  
+    body, .reportview-container, .stApp {
+        background: linear-gradient(to bottom, #cce6ff, white) !important;
+        background-attachment: fixed !important;
+        min-height: 100vh;
     }
 
-    .send-button {
-        padding: 0.75rem;
-        background-color: white;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;  
-        border-radius: 50%;
-        background-color: white;
+    .stChatInput {
+        border: 1px solid #d1d5db !important;
+        border-radius: 999px !important;
+        background: white !important;
+        padding: 8px 12px !important;
     }
 
-    .send-button svg {
-        width: 20px;
-        height: 20px;
-        fill: black;
+    .stChatInput:focus-within {
+        box-shadow: 0 0 0 2px rgba(0,0,0,0.1) !important;
     }
-            
-    .st-ba.st-bw.st-bx.st-by.st-bz.st-c0.st-c1.st-c2.st-c3.st-c4.st-c5.st-b8.st-c6.st-c7.st-c8.st-c9.st-ca.st-cb.st-cc.st-cd.st-ae.st-af.st-ag.st-ce.st-ai.st-aj.st-bv.st-cf.st-cg.st-ch {
-        background-color: white !important;  
-        border: 0px solid black !important;  
+
+    .stButton>button {
+        border-radius: 50% !important;
+        width: 40px !important;
+        height: 40px !important;
+        background: white !important;
+        border: 1px solid #d1d5db !important;
     }
-            
-    .st-emotion-cache-ocsh0s {
-        border: none !important; 
-        background: transparent !important;  
-        padding: none !important;
-        background: white !important; 
+
+    @media (max-width: 768px) {
+        .user-message, .bot-message {
+            max-width: 85% !important;
+        }
     }
-            
-     .stForm.st-emotion-cache-4uzi61.e1ttwmlf1,
-    .stVerticalBlockBorderWrapper,
-    .st-emotion-cache-0.eu6p4el5,
-    .st-emotion-cache-b95f0i.eu6p4el4,
-    .stVerticalBlock.st-emotion-cache-18b46wa.eu6p4el3 {
-        padding: 1px !important;
-    }
-            
-            
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="header">Campus Connect AI</div>', unsafe_allow_html=True)
+st.markdown('''
+    <div class="simple-header">
+        <h1>Campus Connect AI</h1>
+        <div class="subheader">Chatbot for International Students</div>
+    </div>
+''', unsafe_allow_html=True)
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-st.markdown('<div class="chat-container">', unsafe_allow_html=True)
+chat_container = st.container()
+
 for message in st.session_state.messages:
     if message["role"] == "user":
-        st.markdown(f'<div class="user-message">{message["content"]}</div>', unsafe_allow_html=True)
+        chat_container.markdown(f'<div class="user-message">{message["content"]}</div>', unsafe_allow_html=True)
     else:
-        st.markdown(f'<div class="bot-message">{message["content"]}</div>', unsafe_allow_html=True)
-st.markdown('</div>', unsafe_allow_html=True)
+        chat_container.markdown(f'<div class="bot-message">{message["content"]}</div>', unsafe_allow_html=True)
 
-with st.container():
-    st.markdown('<div class="form-container">', unsafe_allow_html=True)
-    with st.form(key="chat_form", clear_on_submit=True):
-        col1, col2 = st.columns([11, 1])
-        with col1:
-            user_query = st.text_input("", placeholder="Type a message here...", key="user_input", label_visibility="collapsed")
-        with col2:
-            submit_button = st.form_submit_button("➔")
-    st.markdown('</div>', unsafe_allow_html=True)
+if prompt := st.chat_input("Type a message here..."):
 
-if submit_button and user_query:
-    st.session_state.messages.append({"role": "user", "content": user_query})
-    responses = generate_answer(user_query) 
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    
+    responses = generate_answer(prompt) 
     bot_response = responses["After RAG Response"]
     st.session_state.messages.append({"role": "bot", "content": bot_response})
+    
     st.rerun()
 
 
