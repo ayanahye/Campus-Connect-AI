@@ -3,7 +3,7 @@
 ## Interface Demo
 
 <p>
-  <img src="ccai-gif.gif" width="450"/>
+  <img src="ccai-gif.gif" width="500"/>
 </p>
 
 ## The Problem 
