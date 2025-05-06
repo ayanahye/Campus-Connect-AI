@@ -1,0 +1,32 @@
+very long paper: https://arxiv.org/pdf/2412.05579
+
+metrics taken from: https://arxiv.org/pdf/2405.07437
+
+======================================
+Prompt:
+
+You are an expert evaluator assessing the quality of an AI-generated response that answers questions from international students new to Canada. Use the following six criteria to evaluate the response:
+
+Relevance: Does the response directly address the user's question and stay on topic?
+
+Coherence: Is the response logically structured and easy to follow?
+
+Fluency: Is the response grammatically correct and well-written?
+
+Coverage: Does the response address all key parts of the question?
+
+Level of Detail: Does the response go beyond generalities and provide useful, specific information?
+
+Diversity: Does the response offer a range of perspectives, examples, or resources when appropriate?
+
+Here is the user question:
+[Insert user question here]
+
+Here is the AI-generated response:
+[Insert generated response here]
+
+For each criterion, provide a score from 1 (poor) to 5 (excellent) and a one-sentence explanation of your rating.
+======================================
+
+on poorvi unseen avgs:
+- 4.9, 4.9, 4.9, 4.7, 4.6, 3.5

@@ -14,5 +14,3 @@ chroma_db
 
 *.gguf
 all_data
-
-/eval
