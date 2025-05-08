@@ -1,1 +1,3 @@
 retrievd document quality is reported in a separate document. (needs work...)
+
+-- all eval results except for docs will do after fix

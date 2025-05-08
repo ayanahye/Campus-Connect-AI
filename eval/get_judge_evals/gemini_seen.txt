@@ -1,0 +1,250 @@
+
+---
+Question: Where can I find information about arts and cultural events?
+Answer: You can visit the Destination British Columbia website or check the British Columbia Arts Council calendar for information about arts and cultural events across British Columbia. Some events may be free or offer discounts. You can also get information at public libraries, tourist information offices, arts councils, and municipal park boards.
+Gemini Evaluation: Relevance 5,The response directly answers the question about finding information on arts and cultural events.
+Coherence 5,The response is logically structured, presenting different avenues for finding information in a clear and concise manner.
+Fluency 5,The response is grammatically correct and uses clear, understandable language.
+Coverage 4,The response addresses the core question but could benefit from mentioning specific types of events.
+Level of Detail 3,The response provides some specific examples like Destination BC and BC Arts Council but could offer more diverse resources and details about discounts and event types.
+Diversity 2,The response lacks diversity in its suggestions; focusing primarily on provincial-level resources and could include more local or community-based options.
+
+---
+Question: What do I need to prepare before coming to BC?
+Answer: 1. Prepare for life in BC by learning about the region and community, finding a place to stay, gathering documents, and starting to learn English or French.
+2. Immigration, Refugees and Citizenship Canada offers free services to help immigrants prepare for life in Canada.
+3. WelcomeBC also provides resources for those moving to BC.
+4. Ensure you have all necessary documents for crossing the border.
+Gemini Evaluation: Relevance 5,The response directly addresses what to prepare before coming to BC.
+Coherence 4,The response is logically structured, starting with general preparation and then moving to specific resources.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 3,The response covers some key aspects but lacks detail on specific documents or things to learn about the region.
+Level of Detail 2,The response remains quite general, offering broad categories without specific examples or instructions.
+Diversity 1,The response does not offer diverse perspectives; it mainly provides links to official resources.
+
+---
+Question: How much does it cost to live in BC?
+Answer: The cost of living in British Columbia varies depending on the location. Use the WelcomeBC Cost of Living Calculator to estimate expenses for housing, taxes, utilities, and transportation in different communities.
+Gemini Evaluation: Relevance 5,The response directly answers the question about the cost of living in BC.
+Coherence 5,The response is logically structured and easy to understand.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 4,While accurate, it could have mentioned general average costs in different areas for a quick understanding.
+Level of Detail 3,The response provides a link to a calculator, but it lacks specific cost examples that would enhance the initial answer.
+Diversity 1,The response does not offer diverse perspectives or examples beyond directing the user to a calculator.
+
+---
+Question: What do I need to know about working in Canada?
+Answer: 1. Apply for a Social Insurance Number (SIN) to work or access government programs and benefits.
+2. Finding a job in Canada may take time and effort, but resources like Immigration, Refugees and Citizenship Canada and WelcomeBC can help.
+3. Be prepared for potential challenges, such as gaining Canadian experience and qualifications, but keep looking for opportunities that match your skills and interests.
+Gemini Evaluation: Relevance 4,The response directly addresses the question of working in Canada, though it's very high-level.
+Coherence 3,The response is structured as a list, but the connection between points could be stronger to create a more cohesive narrative.
+Fluency 5,The response is grammatically correct and well-written in simple language.
+Coverage 2,It touches on basic aspects but misses many crucial areas for international students seeking work.
+Level of Detail 1,The response provides very little specific information, offering mostly general advice.
+Diversity 1,The response lacks diverse perspectives or examples related to different industries, locations, or types of work.
+
+---
+Question: What is a Social Insurance Number (SIN)?
+Answer: A Social Insurance Number (SIN) is a nine-digit number required for work in Canada or access to government programs and benefits. Each SIN is issued to one person only and must be protected.
+Gemini Evaluation: Relevance 5,The response directly answers the question of what a Social Insurance Number (SIN) is.
+Coherence 5,The response presents the information in a clear and logical manner.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 4,The response covers the basic definition and purpose of a SIN but could expand slightly.
+Level of Detail 3,While accurate, the response provides only a basic definition and doesn't offer specifics on how to apply or potential issues.
+Diversity 1,The response doesn't lend itself to diverse perspectives as it's a factual definition.
+
+---
+Question: What is WorkSafeBC?
+Answer: WorkSafeBC is a public agency that promotes workplace health and safety for workers and employers in British Columbia. It also provides injured workers with compensation, medical benefits, and help returning to work safely after their injury.
+Gemini Evaluation: Relevance 5,The response directly answers the question of what WorkSafeBC is.
+Coherence 5,The response is logically structured and easy to understand.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 5,The response covers the main aspects of WorkSafeBC's purpose.
+Level of Detail 3,While accurate, the response could benefit from more specific information about the types of compensation or return-to-work programs.
+Diversity 1,The response does not require diverse perspectives as it is a factual explanation.
+
+---
+Question: What is the Medical Services Plan of British Columbia (MSP)?
+Answer: The Medical Services Plan of British Columbia (MSP) is a provincial insurance program that covers medically required services from physicians, surgeons, and midwives, as well as some diagnostic services for eligible residents. International students with study permits and people with work permits for six months or longer can also get MSP. For more information, please refer to the official sources.
+Gemini Evaluation: Relevance 5,The response directly addresses the question of what MSP is.
+Coherence 5,The response presents the information in a clear and logical manner.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 4,The response covers the basic definition and eligibility for international students.
+Level of Detail 3,The response provides a basic definition but lacks specifics on what services are covered beyond general categories and how to apply.
+Diversity 1,The response does not offer diverse perspectives or resources.
+
+---
+Question: What services does the Medical Services Plan (MSP) cover?
+Answer: The Medical Services Plan (MSP) in British Columbia covers most health costs, including doctors, most medical tests, and treatments. However, some services like dentists and physiotherapists are not covered. For more information, please refer to the Ministry of Health's website.
+Gemini Evaluation: Relevance 5,The response directly answers the question about MSP coverage.
+Coherence 5,The response is logically structured and easy to understand.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 4,The response covers the key aspects of what is and isn't covered.
+Level of Detail 3,The response could benefit from more specific examples of medical tests and treatments covered.
+Diversity 1,The response provides a single perspective without alternative resources.
+
+---
+Question: What is the BC Services Card?
+Answer: The BC Services Card is a government-issued identification card for BC residents to access provincially funded health services. It comes in three versions: BC Driver’s Licence and Services Card, Photo BC Services Card, and Non-Photo BC Services Card. They expire every five years and need to be renewed. You don't need to pay for the BC Services Card.
+Gemini Evaluation: Relevance 5,The response directly answers the question of what the BC Services Card is.
+Coherence 5,The response is logically structured, presenting the definition, versions, expiry, and cost in a clear order.
+Fluency 5,The response is grammatically correct and uses clear, simple language appropriate for international students.
+Coverage 4,The response covers the essential information about the BC Services Card, though it could briefly mention its use beyond just health services.
+Level of Detail 3,While accurate, the response provides only basic information; it could be improved by adding details about how to apply or where to find more information.
+Diversity 1,The response does not offer diverse perspectives or resources as it mainly focuses on a factual description.
+
+---
+Question: What is PharmaCare?
+Answer: PharmaCare helps residents of British Columbia with the cost of eligible prescription drugs and certain medical supplies and pharmacy services. It provides assistance through several plans, and eligibility requires enrollment in the Medical Services Plan of British Columbia. Assistance through the Fair PharmaCare plan is based on income.
+Gemini Evaluation: Relevance 5,The response directly answers the question "What is PharmaCare?" by providing a concise definition.
+Coherence 5,The response is logically structured, starting with a general definition and then providing key details about eligibility and how assistance is determined.
+Fluency 5,The response is grammatically correct and uses clear, concise language.
+Coverage 5,The response addresses the core elements of PharmaCare, including who it helps, what it covers, and the basic eligibility requirements.
+Level of Detail 4,The response offers some specific information, such as the link to the Medical Services Plan and the mention of income-based assistance, but could benefit from examples of covered medical supplies or pharmacy services.
+Diversity 1,The response does not offer diverse perspectives, examples, or resources as it is a straightforward definition.
+
+---
+Question: How do I apply for a job?
+Answer: To apply for a job in British Columbia, you will need to send a résumé and cover letter to the employer. Some companies may also ask you to complete an application form or see your portfolio or a sample of your work. Job postings usually have instructions about how to submit your documents and the deadline to apply. For more information, check out the resources provided.
+Gemini Evaluation: Relevance 5,The response directly answers the question of how to apply for a job.
+Coherence 5,The response presents a clear and logical process for applying for a job.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 4,The response covers the basics of a job application but could elaborate further.
+Level of Detail 3,The response is somewhat general and could benefit from more specific examples.
+Diversity 1,The response provides a single perspective and lacks varied approaches or resources.
+
+---
+Question: How do I access bus and SkyTrain services?
+Answer: You can access bus and SkyTrain services by using a Compass Card or having exact change for the fare. Buses require you to pull the cord or push the red button to signal the driver to stop. SkyTrains stop at every station. Check TransLink or BC Transit websites for schedules and routes.
+Gemini Evaluation: Relevance 5,The response directly answers how to access bus and SkyTrain services.,Coherence 4,The response is logically structured, outlining payment options and operational aspects.,Fluency 5,The response is grammatically correct and easy to understand.,Coverage 4,The response covers the basic methods of access and operation.,Level of Detail 3,While it mentions Compass Cards and exact change, it lacks details about obtaining a Compass Card or fare costs.,Diversity 1,The response does not offer diverse perspectives or alternative resources.
+
+---
+Question: What is a typical fare for Vancouver SkyTrain and bus?
+Answer: A single adult fare for the SkyTrain is approximately $3.10-$4.45 depending on zones and time of day. A bus fare is approximately $3.10-$4.45 depending on zones and time of day. However, international students may have access to the U-Pass BC program for unlimited travel.
+Gemini Evaluation: Relevance 5,The response directly answers the question about typical fares for SkyTrain and bus in Vancouver.
+Coherence 5,The response is logically structured, presenting the fare information clearly and then adding information about the U-Pass.
+Fluency 5,The response is grammatically correct and uses clear, concise language.
+Coverage 5,The response covers the basic fare range and also mentions the potential for a U-Pass, addressing the primary question and a potential relevant exception.
+Level of Detail 4,While it provides a range for the fare, it could benefit from a brief explanation of "zones" (e.g., indicating how many zones there are).
+Diversity 3,While the U-Pass is mentioned, the response could mention alternative fare options like day passes or monthly passes for students who might not be eligible for the U-Pass.
+
+---
+Question: As an international student, how can I extend my stay in Canada?
+Answer: To extend your stay in Canada as an international student, you must apply for a study permit extension before your current permit expires. You can do this by going to the Visa and Immigration Applications website and following the instructions there. Make sure to submit all required documents and pay the application fee. If your study permit was issued for less time than you need to complete your degree, you must extend it to maintain your immigration status in Canada.
+Gemini Evaluation: Relevance 5,The response directly addresses the question of extending a stay as an international student.,Coherence 5,The response presents a clear and logical process for extending a study permit.,Fluency 5,The response is grammatically correct and well-written, making it easy to understand.,Coverage 4,The response covers the essential steps for extending a stay, but could be slightly more comprehensive.,Level of Detail 3,The response provides basic information but lacks specifics on required documents or potential complications.,Diversity 1,The response offers a single perspective without considering alternative options or resources.
+
+---
+Question: Am I allowed to travel outside of Canada while on maintained status?
+Answer: You can travel outside Canada as long as your visa or eTA is still valid. If your study permit expires while you're away, you may not resume your studies or work until your application for an extension is approved.
+Gemini Evaluation: Relevance 5,The response directly answers the question about traveling outside Canada while on maintained status.
+Coherence 5,The response is logically structured and easy to understand.
+Fluency 5,The response is grammatically correct and uses clear language.
+Coverage 4,The response addresses the core concern but could benefit from a bit more elaboration.
+Level of Detail 3,The response provides basic information but could include more specifics about visa/eTA validity and re-entry requirements.
+Diversity 1,The response does not require diverse perspectives as it is a straightforward factual answer.
+
+---
+Question: How many hours can international students work off campus?
+Answer: International students can work up to 24 hours per week off campus during academic sessions. They can work unlimited hours during scheduled breaks. The total number of days they can work unlimited hours off campus during a calendar year is 180.
+Gemini Evaluation: Relevance 5,The response directly answers the question about off-campus work hours for international students.
+Coherence 5,The response is logically structured and easy to understand, clearly stating the work hour limits during academic sessions and breaks.
+Fluency 5,The response is grammatically correct and well-written, with clear and concise language.
+Coverage 4,The response covers the main points of the question, including work hours during academic sessions and breaks, but could benefit from mentioning eligibility criteria.
+Level of Detail 4,The response provides specific information about the number of work hours and the number of days with unlimited hours, but could elaborate on what constitutes a "scheduled break."
+Diversity 1,The response provides a straightforward answer without considering different perspectives or providing additional resources.
+
+---
+Question: How much approximately does it cost to live on SFU on campus housing vs off campus rental?
+Answer: On campus housing at SFU ranges from $3636 to $4580 per term (4 months) depending on the type of accommodation. Off campus rental costs vary widely, but the average household expenditure on rent for Other households with related or unrelated persons in 2021 was $1,510.00 per year, or about $125.83 per month. However, this figure does not include utilities, groceries, or other living expenses.
+Gemini Evaluation: Relevance 5,The response directly answers the question by providing cost ranges for both on and off-campus housing options at SFU.
+Coherence 4,The response is logically structured by first addressing on-campus housing costs and then moving to off-campus, making it easy to follow.
+Fluency 5,The response is grammatically correct and written in a clear and concise manner.
+Coverage 4,The response covers the main aspects of the question, providing cost estimates for both on-campus and off-campus housing, although it could benefit from mentioning the time frame of the on-campus costs is per term.
+Level of Detail 3,While it provides a range for on-campus housing, the off-campus rental figure seems inaccurate ($125.83/month) and lacks crucial details about location and types of accommodation.
+Diversity 1,The response does not offer diverse perspectives or alternative resources, focusing solely on cost estimates.
+
+---
+Question: What options are available for SFU on-campus housing?
+Answer: SFU offers on-campus housing through Residence Services. You can apply for a room or suite through their website. They have various types of accommodations, including traditional residence halls, apartments, and townhouses. For more information, visit SFU Residence Services: https://housing.sfu.ca/
+Gemini Evaluation: Relevance 5,The response directly answers the question about on-campus housing options at SFU.
+Coherence 5,The response presents information in a clear and logical manner.
+Fluency 5,The response is grammatically correct and reads smoothly.
+Coverage 3,While it mentions different types of accommodations, it lacks specific details about each option.
+Level of Detail 2,The response is quite general and provides minimal specific information beyond the types of accommodations and a link.
+Diversity 1,The response doesn't offer diverse perspectives or alternative housing resources.
+
+---
+Question: When and how will my transfer credit be applied to my student record?
+Answer: Your transfer credit is applied during the admission process after your application is completed.
+Gemini Evaluation: Relevance 4,The response directly answers when transfer credits are applied but doesn't fully address the "how" portion of the question.
+Coherence 5,The response is a single, clear sentence.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 3,The response only partially covers the question by addressing the "when" but not elaborating on the "how."
+Level of Detail 2,The response lacks specific details about the transfer credit evaluation process and what constitutes a "completed" application.
+Diversity 1,The response doesn't offer any alternative perspectives or information.
+
+---
+Question: Can a lone parent apply for a study permit for a minor child?
+Answer: Yes, a lone parent can apply for a study permit for a minor child. However, they may need to provide additional documents depending on their custody situation. For sole custody, they need proof of parentage and decision-making authority. For joint custody, both parents must participate and provide consent. If the other parent is deceased or not known, additional documents are required. Always refer to official sources for the most accurate and up-to-date information.
+Gemini Evaluation: Relevance 5,The response directly answers the question and remains focused on the topic of study permits for minor children of lone parents.
+Coherence 5,The response is logically structured, clearly outlining the different custody scenarios and their implications.
+Fluency 5,The response is grammatically correct and well-written, making it easy to understand.
+Coverage 5,The response covers the key aspects of the question, including sole custody, joint custody, and situations where the other parent is deceased or unknown.
+Level of Detail 4,The response provides useful, specific information regarding the documentation needed for different custody situations, but could benefit from listing examples of acceptable documents.
+Diversity 3,While the response acknowledges different custody situations, it doesn't offer diverse resources or perspectives beyond the basic requirements.
+
+---
+Question: How long will it take to process my study permit application?
+Answer: Processing times vary. IRCC lists processing times on their website. Check for the most current details.
+Gemini Evaluation: Relevance 5,The response directly answers the question by acknowledging the variable processing times for study permit applications.
+Coherence 5,The response is logically structured and easy to understand with a clear and concise message.
+Fluency 5,The response is grammatically correct and well-written using simple language.
+Coverage 4,The response covers the key aspect of the question but could benefit from a brief explanation of factors influencing processing times.
+Level of Detail 2,The response lacks specific details, providing only a general direction to the IRCC website without further guidance.
+Diversity 1,The response does not offer diverse perspectives or alternative resources, sticking to a single, albeit correct, suggestion.
+
+---
+Question: As an international student can I work in Canada without a work permit?
+Answer: Yes, as an international student, you can work in Canada without a work permit under certain conditions. If you have a valid study permit, are enrolled full-time in a designated learning institution, and have a Social Insurance Number, you may be able to work on campus without a work permit. Additionally, you may be eligible to work off-campus without a work permit if your study permit allows it. However, if you wish to take part in a co-op or internship program or work after your studies, you will need a work permit.
+Gemini Evaluation: Relevance 5,The response directly answers the question of whether international students can work without a permit.
+Coherence 5,The response is logically structured, starting with a general answer and then providing specific conditions.
+Fluency 5,The response is grammatically correct and uses clear, concise language.
+Coverage 4,The response covers the key conditions for working without a permit and mentions when a permit is needed, but could benefit from briefly mentioning specific types of on-campus jobs or eligibility requirements for off-campus work.
+Level of Detail 3,While it mentions the conditions, it lacks specific details about designated learning institutions or types of jobs allowed.
+Diversity 1,The response does not offer diverse perspectives or resources; it presents a single, factual viewpoint.
+
+---
+Question: I’m an international student. Can I continue to work after I’ve finished my study program?
+Answer: Generally, no. You must stop working once you’ve finished your program. However, you can continue to work if you’ve applied for a work permit before your study permit expired or if you’re starting a new study program. Find out more at <https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1472&top=15> and <https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html#after>.
+Gemini Evaluation: Relevance 5,The response directly answers the question about working after finishing a study program.,Coherence 5,The response provides a clear and concise explanation of the general rule and exceptions.,Fluency 5,The response is grammatically correct and easy to understand.,Coverage 4,The response addresses the key aspects of the question but could benefit from mentioning the Post-Graduation Work Permit Program.,Level of Detail 3,The response offers basic information and links to relevant resources but lacks detailed explanations of the work permit options.,Diversity 1,The response presents a single perspective and does not offer alternative options.
+
+---
+Question: Can you tell me about the Brandywine Mountain hike?
+Answer: The Brandywine Mountain hike is a difficult 14.5 km trek with an elevation gain of 1465 meters. It takes 6 to 8 hours to complete and dogs are allowed. The hike is located in the Whistler region and is popular during the summer months.
+Gemini Evaluation: Relevance 5,The response directly answers the question by providing information about the Brandywine Mountain hike.
+Coherence 5,The response presents information in a logical order, starting with the difficulty and ending with popularity.
+Fluency 5,The response uses grammatically correct and clear language, making it easy to understand.
+Coverage 4,The response covers the key aspects of the hike like difficulty, length, elevation gain, time, and location.
+Level of Detail 3,While accurate, the response lacks detail that would be useful for someone unfamiliar with the hike, such as trail conditions, required gear or how to get there.
+Diversity 1,The response does not offer diverse perspectives or resources, sticking only to basic facts about the hike.
+
+---
+Question: Can you tell me about the Gold Creek Falls & Canyon Loop hike?
+Answer: The Gold Creek Falls & Canyon Loop hike is a moderate difficulty trail, 15.6 km long with an elevation gain of 560 meters. It takes 4 to 6 hours to complete. Dogs are allowed and a 4x4 vehicle is not needed. The hike is popular year-round and is located in the Golden Ears region.
+Gemini Evaluation: Relevance 5,The response directly addresses the user's question about the Gold Creek Falls & Canyon Loop hike.
+Coherence 5,The response presents information in a clear and logical manner.
+Fluency 5,The response is grammatically correct and reads smoothly.
+Coverage 4,The response covers key details such as difficulty, length, elevation, time, dog-friendliness, and location.
+Level of Detail 3,While informative, it could benefit from details about the trail's features or highlights, besides just statistics.
+Diversity 1,The response provides a single perspective and lacks any alternative viewpoints or resources.
+
+---
+Question: Can you tell me about the Silverdaisy Mountain hike?
+Answer: The Silverdaisy Mountain hike is a moderate difficulty trek, with a distance of 23.7 km and an elevation gain of 1280 meters. It takes 6 to 8 hours to complete. Dogs are allowed and a 4x4 vehicle is not required. The hike is located in Manning Park and can be done year-round, but summer is preferred.
+Gemini Evaluation: Relevance 5,The response directly addresses the user's question about the Silverdaisy Mountain hike.
+Coherence 5,The response is logically structured, presenting information in a clear and concise manner.
+Fluency 5,The response is grammatically correct and uses clear language.
+Coverage 4,The response covers key aspects of the hike, such as difficulty, distance, elevation gain, time, dog policy, vehicle requirements, location and seasonality, but could benefit from extra information to improve the response.
+Level of Detail 3,While informative, the response could provide more detail about the trail's features, scenery, or potential hazards.
+Diversity 1,The response lacks diversity as it presents a single viewpoint without alternative perspectives or resources.

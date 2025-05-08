@@ -1,32 +1,31 @@
 import csv
 import re
 
-with open('poorvi.txt', 'r', encoding='utf-8') as file:
-    content = file.read()
+with open('ayana.txt', 'r', encoding='utf-8') as f:
+    data = f.read()
 
-entries = re.split(r"\nQues:\n?", content)
-parsed_data = []
+blocks = re.split(r'\n(?=Ques:)', data)
 
-for entry in entries:
-    if not entry.strip():
-        continue
-    ques_match = re.search(r'^(.*?)(?=Actual Answer:)', entry, re.DOTALL)
-    actual_match = re.search(r'Actual Answer:\n?(.*?)(?=Gen Answer:)', entry, re.DOTALL)
-    gen_match = re.search(r'Gen Answer:\n?(.*?)(?=Retrieved Docs:)', entry, re.DOTALL)
-    docs_match = re.search(r'Retrieved Docs:\n?(.*?)(?=Bert Score:)', entry, re.DOTALL)
-    score_match = re.search(r"'precision': \[(.*?)\], 'recall': \[(.*?)\], 'f1': \[(.*?)\]", entry)
+with open('ayana-unseen-data.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=[
+        'Question', 'Actual Answer', 'Generated Answer',
+        'Retrieved Docs', 'BERT Precision', 'BERT Recall', 'BERT F1'
+    ])
+    writer.writeheader()
 
-    ques = ques_match.group(1).strip() if ques_match else ''
-    actual = actual_match.group(1).strip() if actual_match else ''
-    gen = gen_match.group(1).strip() if gen_match else ''
-    docs = docs_match.group(1).strip() if docs_match else ''
-    precision = score_match.group(1).strip() if score_match else ''
-    recall = score_match.group(2).strip() if score_match else ''
-    f1 = score_match.group(3).strip() if score_match else ''
+    for block in blocks:
+        question = re.search(r'Ques:\s*(.*?)\n', block, re.DOTALL)
+        actual = re.search(r'(?:Actual Answer|Actual Ans):\s*(.*?)\n(?:Generated Answer|Gen Answer|Gen Ans):', block, re.DOTALL)
+        generated = re.search(r'(?:Generated Answer|Gen Answer|Gen Ans):\s*(.*?)\nRetrieved Docs:', block, re.DOTALL)
+        retrieved = re.search(r'Retrieved Docs:\s*(.*?)\nBert Score:', block, re.DOTALL)
+        bert = re.search(r"Bert Score: 'precision': \[(.*?)\], 'recall': \[(.*?)\], 'f1': \[(.*?)\]", block)
 
-    parsed_data.append([ques, actual, gen, docs, precision, recall, f1])
-
-with open('poorvi-unseen-data.csv', 'w', newline='', encoding='utf-8') as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerow(['Ques', 'Actual_Answer', 'Gen_Answer', 'Retrieved_Docs', 'Bert_Precision', 'Bert_Recall', 'Bert_F1'])
-    writer.writerows(parsed_data)
+        writer.writerow({
+            'Question': question.group(1).strip() if question else '',
+            'Actual Answer': actual.group(1).strip() if actual else '',
+            'Generated Answer': generated.group(1).strip() if generated else '',
+            'Retrieved Docs': retrieved.group(1).strip() if retrieved else '',
+            'BERT Precision': bert.group(1).strip() if bert else '',
+            'BERT Recall': bert.group(2).strip() if bert else '',
+            'BERT F1': bert.group(3).strip() if bert else '',
+        })

@@ -2,12 +2,14 @@ from nltk.translate import meteor_score
 from rouge_score import rouge_scorer
 import pandas as pd
 import nltk
+import os
 
 # ignore: https://aclanthology.org/2025.naacl-long.182.pdf
 # bleu and variants might not be the best here
 # im using meteor for reference:  https://www.nltk.org/api/nltk.translate.meteor_score.html
 # summary:
     # Aligns/matches words in the hypothesis to reference by sequentially applying exact match, stemmed match and wordnet based synonym match. In case there are multiple matches the match which has the least number of crossing is chosen.
+
 nltk.download('punkt')
 
 rouge = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
@@ -27,21 +29,37 @@ def evaluate_meteor_rouge(references, predictions):
 
     return results
 
-file1 = "poorvi-unseen-data.csv"
-file2 = "serena-seen-data.csv"
+input_dir = "all_data_eval"
+output_dir = "r_and_b"
+os.makedirs(output_dir, exist_ok=True)
 
-df1 = pd.read_csv(file1)
-refs1 = df1["Actual_Answer"].fillna("").tolist()
-gens1 = df1["Gen_Answer"].fillna("").tolist()
-scores1 = evaluate_meteor_rouge(refs1, gens1)
-df1["METEOR"] = scores1["METEOR"]
-df1["ROUGE-L"] = scores1["ROUGE-L"]
-df1.to_csv("r_and_b/poorvi-unseen-data-scored.csv", index=False)
+def match_column(df_columns, candidates):
+    def normalize(col):
+        return col.strip().lower().replace("_", " ")
+    normed_cols = {normalize(col): col for col in df_columns}
+    for candidate in candidates:
+        norm_candidate = normalize(candidate)
+        if norm_candidate in normed_cols:
+            return normed_cols[norm_candidate]
+    return None
 
-df2 = pd.read_csv(file2)
-refs2 = df2["Benchmark Answer"].fillna("").tolist()
-gens2 = df2["RAG Response"].fillna("").tolist()
-scores2 = evaluate_meteor_rouge(refs2, gens2)
-df2["METEOR"] = scores2["METEOR"]
-df2["ROUGE-L"] = scores2["ROUGE-L"]
-df2.to_csv("r_and_b/serena-seen-data-scored.csv", index=False)
+for filename in os.listdir(input_dir):
+    if filename.endswith(".csv"):
+        filepath = os.path.join(input_dir, filename)
+        df = pd.read_csv(filepath)
+
+        ref_col = match_column(df.columns, ["Actual Answer", "Benchmark Answer"])
+        gen_col = match_column(df.columns, ["Generated Answer", "Gen Answer", "RAG Response"])
+
+        if ref_col and gen_col:
+            refs = df[ref_col].fillna("").tolist()
+            gens = df[gen_col].fillna("").tolist()
+
+            scores = evaluate_meteor_rouge(refs, gens)
+            df["METEOR"] = scores["METEOR"]
+            df["ROUGE-L"] = scores["ROUGE-L"]
+
+            output_path = os.path.join(output_dir, filename.replace(".csv", "-scored.csv"))
+            df.to_csv(output_path, index=False)
+        else:
+            print(f"error")

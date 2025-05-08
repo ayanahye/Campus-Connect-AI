@@ -2,7 +2,7 @@ import csv
 import re
 
 input_file = "serena.txt"
-output_file = "serena-seen-data.csv"
+output_file = "serena-unseen-data.csv"
 
 with open(input_file, "r", encoding="utf-8") as file:
     text = file.read()

@@ -1,0 +1,206 @@
+
+---
+Question: I need help getting a job
+Answer: 1. To apply for a job in BC, you will need to send a résumé and cover letter to the employer.
+2. The employer may also ask you to complete an application form or see your portfolio or a sample of your work.
+3. Job postings usually have instructions about how to submit your documents and the deadline to apply.
+4. For more information, check out the Government of Canada's job search resources.
+5. Career Paths for Skilled Immigrants can also help you find work in your field.
+Gemini Evaluation: Relevance 3,The response is related to getting a job, but it's very generic and doesn't offer much concrete help.
+Coherence 4,The response is logically structured as a list of steps.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 2,The response only touches on the very basic aspects of applying for a job.
+Level of Detail 1,The response lacks specific details or actionable advice, providing only general statements.
+Diversity 1,The response doesn't offer diverse perspectives or resources beyond a couple of links.
+
+---
+Question: I want to improve my resume and find a job. Where can I go?
+Answer: 1. You can improve your resume by using clear and concise language, tailoring it to the job you're applying for, and including relevant skills and experiences.
+2. WorkBC offers free resume writing assistance and job search workshops. You can also find resume templates and examples online.
+3. To find a job, use government and non-government job search websites, industry-specific job boards, and social media like LinkedIn. Research companies and attend job fairs. Networking is also important.
+Gemini Evaluation: Relevance 5,The response directly addresses the user's need for resume improvement and job searching.,Coherence 4,The response is logically structured, providing resume tips first and then job search strategies.,Fluency 5,The response is grammatically correct and uses clear, accessible language.,Coverage 4,The response covers key areas like resume writing, job boards, and networking.,Level of Detail 3,While mentioning WorkBC is helpful, more specific examples of job boards or networking tips would improve the detail.,Diversity 2,The response could benefit from a broader range of resume improvement resources beyond WorkBC and online templates.
+
+---
+Question: Can my family members travel with me to Canada?
+Answer: Your spouse, partner, parents, grandparents, dependent children, and adopted children can travel with you to Canada if they have the appropriate visas or electronic travel authorizations. For more information, refer to the Government of Canada's website on sponsoring family members.
+Gemini Evaluation: Relevance 5,The response directly answers the question about family members traveling to Canada.,Coherence 5,The response is logically structured and easy to understand.,Fluency 5,The response is grammatically correct and well-written.,Coverage 4,The response covers the key family members who can travel and mentions the need for visas or eTAs.,Level of Detail 3,The response provides basic information but lacks specifics on visa types or eligibility requirements.,Diversity 1,The response does not offer diverse perspectives or alternative solutions.
+
+---
+Question: What are the requirements for admission into Canadian universities?
+Answer: Admission requirements depend on the specific university and program. Generally, high school courses and grades, along with post-secondary GPA, are considered. Repeated courses use the highest grade. For post-secondary applicants with 9 to 23 units, all transferable units are used. Check with individual universities for specific requirements.
+Gemini Evaluation: Relevance 5,The response directly addresses the user's question about admission requirements.
+Coherence 4,The response is logically structured and easy to follow, although it could benefit from a slightly more detailed introduction.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 3,The response touches on the key areas of consideration, such as high school and post-secondary academics, but misses many other relevant factors.
+Level of Detail 2,The response is quite general and doesn't provide specific examples or resources for international students.
+Diversity 1,The response does not offer diverse information or perspectives as it doesn't mention non-academic considerations, varying admission standards for international students, language requirements, etc.
+
+---
+Question: I have completed all but one year of my program in my home country. I would like to finish the final year of my program in Canada. Will a Canadian institution accept the academic years that I completed in my home country and allow me to enter the final year in Canada?
+Answer: If you're looking to complete the final year of your program in Canada, you'll need to check with the specific institution you plan to attend to see if they'll accept the academic years you completed in your home country. Some institutions may have transfer credit policies that allow this, while others may not. It's best to contact the admissions office directly for their specific requirements.
+Gemini Evaluation: Relevance 5,The response directly addresses the user's question about transferring academic credits.,Coherence 5,The response is logically structured and easy to understand.,Fluency 5,The response is grammatically correct and well-written.,Coverage 4,The response covers the core issue but could benefit from mentioning potential documentation needed.,Level of Detail 3,The response is somewhat general and could be more specific by providing examples of potential requirements.,Diversity 1,The response does not offer diverse perspectives or resources.
+
+---
+Question: I have completed all but one year of my program in my home country. I would like to finish the final year of my program in Canada. Will a Canadian institution accept the academic years that I completed in my home country and allow me to enter the final year in Canada?
+Answer: If you're looking to complete the final year of your program in Canada, you'll need to check with the specific institution you plan to attend to see if they'll accept the academic years you completed in your home country. Some institutions may have transfer credit policies that allow this, while others may not. It's best to contact the admissions office directly for their specific requirements.
+Gemini Evaluation: Relevance 5,The response directly addresses the student's question about transferring credits.,Coherence 5,The response is logically structured with a clear and concise explanation.,Fluency 5,The response is grammatically correct and well-written.,Coverage 4,The response addresses the key aspect of checking with the institution.,Level of Detail 3,The response is somewhat general and lacks specific information on transfer credit policies or examples.,Diversity 1,The response does not offer alternative pathways or resources for credit transfer.
+
+---
+Question: How do I get to Metrotown via transit from SFU Burnaby?
+Answer: To get to Metrotown from SFU Burnaby, take bus route 144 from the nearby bus loop. The journey takes approximately 20 minutes. Check the TransLink website or mobile app for the most up-to-date information.
+Gemini Evaluation: Relevance 5,The response directly answers the question of how to get to Metrotown from SFU Burnaby.,Coherence 5,The response provides a clear and concise route.,Fluency 5,The response is grammatically correct and easy to understand.,Coverage 5,The response covers the key information needed to answer the question.,Level of Detail 4,While concise, mentioning the bus number and reminding users to check TransLink for up-to-date info is helpful.,Diversity 1,The response offers a single straightforward solution, so diversity is not applicable.
+
+---
+Question: How much does the transit adult monthly pass cost?
+Answer: In Metro Vancouver, the monthly adult Compass Pass costs approximately $105.50. This provides unlimited travel on buses, SkyTrains, the WestCoast Express, and the SeaBus. Outside Metro Vancouver, monthly passes may cost less. Check with your local transit authority for details.
+Gemini Evaluation: Relevance 5,The response directly answers the question about the cost of a monthly transit pass.
+Coherence 5,The response is easy to understand, with a clear statement followed by clarifying details.
+Fluency 5,The response is grammatically correct and uses clear language.
+Coverage 5,The response provides the specific cost and also addresses the possibility of different costs elsewhere.
+Level of Detail 4,The response gives a specific price and mentions the included transit options, which is sufficiently detailed.
+Diversity 3,While accurate, the response only focuses on price and doesn't explore other factors like concessions or pass types.
+
+---
+Question: Do I need a Social Insurance Number (SIN) to work in Canada?
+Answer: Yes, you need a Social Insurance Number (SIN) to work in Canada. It's also required to access government programs and benefits. Protect your SIN as it contains personal information.
+Gemini Evaluation: Relevance 5,The response directly answers the question about needing a SIN for work.
+Coherence 5,The response is logically structured with a clear and concise answer followed by additional information.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 4,The response covers the main requirement (work) and briefly mentions government programs, but could elaborate slightly.
+Level of Detail 3,The response is somewhat basic and lacks specific details about how to obtain a SIN or what programs it enables access to.
+Diversity 1,The response does not offer diverse perspectives or alternative resources; it's a straightforward answer.
+
+---
+Question: How do taxes work for international students in Canada?
+Answer: As an international student in Canada, you'll need to pay income tax on the money you earn. The Canada Revenue Agency collects this tax. If you have a salary, taxes are taken off automatically. If you're self-employed, you'll pay in a single or several payments. Each year, you must submit an Income Tax and Benefit Return to report your income, deductions, and tax credits. You may be eligible for government benefits, so it's important to file a tax return even if you have no income. For more information, refer to the Government of Canada and Government of BC websites.
+Gemini Evaluation: Relevance 5,The response directly answers the question of how taxes work for international students.
+Coherence 5,The response is logically structured and easy to understand.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 4,The response covers the main aspects of income tax for international students, but could benefit from additional details.
+Level of Detail 3,The response provides a basic overview but lacks specific details regarding deductions, tax credits, or types of income relevant to students.
+Diversity 2,The response provides limited diversity, primarily focusing on income tax and only mentioning provincial resources for BC.
+
+---
+Question: Can I switch majors as an international student?
+Answer: Yes, you can switch majors as an international student. However, you may need to meet certain requirements, such as completing specific prerequisites or obtaining approval from your academic advisor. It's best to consult with an International Student Advisor or your academic advisor to understand the specific steps you need to take.
+Gemini Evaluation: Relevance 5,The response directly answers the question about switching majors.
+Coherence 5,The response presents a clear and logical flow of information.
+Fluency 5,The response is grammatically correct and easy to understand.
+Coverage 4,The response addresses the main question but could benefit from mentioning potential visa implications.
+Level of Detail 3,The response is a bit general and could offer more specific examples of requirements or processes.
+Diversity 1,The response does not offer diverse perspectives or resources.
+
+---
+Question: What does academic probation mean and how do I get off it?
+Answer: Academic probation is a status assigned to students who have not met the academic requirements of their institution. To get off academic probation, you typically need to meet certain academic improvement requirements, such as achieving a certain GPA or passing a certain number of credits. The specific requirements can vary, so it's best to consult with your academic advisor or institution's academic policies for details.
+Gemini Evaluation: Relevance 5,The response directly addresses the user's question about the meaning of academic probation and how to get off it.
+Coherence 5,The response is logically structured, starting with a definition and then providing advice on how to improve the situation.
+Fluency 5,The response is grammatically correct and uses clear language.
+Coverage 4,The response covers the main points of the question but could include more possible factors.
+Level of Detail 3,The response is somewhat general, lacking specific examples of GPA requirements or strategies for academic improvement.
+Diversity 1,The response doesn't offer diverse perspectives or resources; it's a straightforward explanation.
+
+---
+Question: How do finals and midterms typically work in BC universities?
+Answer: Finals and midterms are standard assessments in BC universities. Midterms usually occur around the 6-week mark of a semester, while finals take place at the end of each semester. The format and weighting of these assessments may vary depending on the specific course and instructor. Some courses may have a mix of exams, assignments, and presentations for assessment. It's essential to check with your professors or academic advisors for the exact format and schedule of your exams.
+Gemini Evaluation: Relevance 5,The response directly answers the question about how finals and midterms typically work in BC universities.
+Coherence 5,The response is logically structured, starting with a general overview and then offering specific advice.
+Fluency 5,The response is grammatically correct and well-written, making it easy to understand.
+Coverage 4,The response covers the timing and format of midterms and finals, but could benefit from some more depth.
+Level of Detail 3,The response is somewhat general, lacking specific examples of exam formats or university policies.
+Diversity 1,The response does not offer a range of perspectives or examples, focusing on a singular, general view.
+
+---
+Question: Can I have a pet in on-campus housing?
+Answer: SFU on-campus housing allows pets that are approved service animals. For other pets, you may need to find off-campus housing. Check with the housing office for specific rules.
+Gemini Evaluation: Relevance 5,The response directly answers the question about pets in on-campus housing.
+Coherence 5,The response is logically structured and easy to understand.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 4,The response covers the key aspects of the question, differentiating between service animals and other pets.
+Level of Detail 3,While accurate, the response could benefit from more specific details regarding the approval process for service animals or resources for finding off-campus housing.
+Diversity 1,The response does not offer diverse perspectives, examples or resources.
+
+---
+Question: What should I do if my study permit expires while I’m still in Canada?
+Answer: If your study permit has already expired and you wish to resume studying in Canada, you may apply to restore your status. This can be done if you're still in Canada and have a valid reason for not extending your permit before it expired. You'll need to provide proof that you've been maintaining your status as a student, such as enrollment in a designated learning institution and sufficient funds. If your application is approved, you'll be granted a new study permit. If you're unable to apply to restore your status within 90 days of your permit expiring, you may need to leave Canada and reapply for a new study permit from outside the country.
+Gemini Evaluation: Relevance 5,The response directly addresses the question of what to do if a study permit expires while in Canada.
+Coherence 5,The response presents a logical sequence of actions, first addressing restoration of status, then the alternative of leaving and reapplying.
+Fluency 5,The writing is grammatically sound and easy to understand.
+Coverage 4,The response covers the main options: restoring status and reapplying from outside Canada, but could benefit from mentioning implied status.
+Level of Detail 4,It gives some specifics about needing to prove student status and the 90-day limit but could include links to relevant government pages.
+Diversity 1,The response does not require diversity, as it is a factual answer.
+
+---
+Question: Can I work while studying in Canada with a study permit?
+Answer: Yes, international students with a valid study permit can work on-campus at their institution. They do not need a separate work permit for this. However, they cannot work off-campus without a separate work permit, unless they have an off-campus work permit or are in a co-op or internship program.
+Gemini Evaluation: Relevance 5,The response directly answers the question about working with a study permit.
+Coherence 5,The response is logically structured, clearly stating the on-campus and off-campus work possibilities.
+Fluency 5,The response is grammatically correct and easy to understand.
+Coverage 4,The response covers the main points, but could briefly mention eligibility requirements for off-campus work permits.
+Level of Detail 3,While accurate, the response lacks detail regarding eligibility for off-campus work and the nuances of co-op permits.
+Diversity 1,The response presents a single perspective without exploring different work options or related resources.
+
+---
+Question: Can I apply for a work permit if I am finishing my studies in Canada?
+Answer: Yes, you can apply for a post-graduation work permit once you've completed your studies. But, you must have been a full-time student at a designated learning institution and not exceeded the hours you could work on and off-campus. If your application is refused, you must stop working immediately.
+Gemini Evaluation: Relevance 5,The response directly answers the question about applying for a work permit after finishing studies in Canada.
+Coherence 4,The response is logically structured, presenting the main answer followed by conditions and a warning.
+Fluency 4,The response is grammatically correct and well-written, but could be slightly more polished.
+Coverage 4,The response addresses the key aspects of the question, including eligibility requirements and potential consequences of refusal.
+Level of Detail 3,While informative, the response lacks specific details about the Designated Learning Institution requirements and the allowed working hours.
+Diversity 1,The response does not offer alternative perspectives or resources.
+
+---
+Question: How can I apply for a co-op work permit as an international student?
+Answer: To apply for a co-op work permit as an international student, you can include it with your initial study permit application. Ensure you have the Study/Work Permit Information Form from your admission package. The work experience must be essential to completing your program and cannot exceed 50% of your total program. For more information, see Work permits for students - Co-op and internship programs.
+Gemini Evaluation: Relevance 5,The response directly answers the user's question about applying for a co-op work permit.
+Coherence 4,The response is logically structured and easy to follow, though it could benefit from slightly more elaboration.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 4,The response addresses the key parts of the question, including when to apply and some basic requirements.
+Level of Detail 3,While accurate, the response is somewhat general and could benefit from more specific details about the application process or required documents.
+Diversity 1,The response doesn't offer diverse perspectives; it presents a single path and lacks alternative resources or viewpoints.
+
+---
+Question: Is it possible to work in Canada during my semester breaks?
+Answer: Yes, you can work during scheduled school breaks, both on and off campus, as long as your study permit is still valid and you meet the requirements. Off-campus work is full-time during breaks, while on-campus work is also full-time. Check the provided links for more details.
+Gemini Evaluation: Relevance 5,The response directly answers the question about working during semester breaks.
+Coherence 4,The response is logically structured and easy to understand, although it could benefit from a slightly more detailed explanation of the requirements.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 4,The response covers the key aspects of the question, but a more in-depth explanation of eligibility criteria would improve it.
+Level of Detail 3,While it mentions full-time work, it lacks specific details about what requirements need to be met beyond a valid study permit.
+Diversity 1,The response does not offer diverse perspectives or resources, primarily providing a straightforward answer.
+
+---
+Question: Is there an easy hike near Metro Vancouver?
+Answer: Yes, there are many hiking trails in and around Metro Vancouver. Some popular options include Lynn Canyon Park, Cypress Provincial Park, and Stanley Park. For more information, check out the BC Parks website or the Metro Vancouver Regional Parks website. Remember to follow local regulations and stay safe while hiking.
+Gemini Evaluation: Relevance 5,The response directly answers the question about easy hikes near Metro Vancouver.
+Coherence 5,The response is logically structured, listing options and then resources.
+Fluency 5,The response is grammatically correct and uses clear language.
+Coverage 4,The response covers the main aspect of the question but could benefit from specifying which trails are considered easy.
+Level of Detail 3,The response provides some names but lacks specific details about the trails (e.g., length, elevation gain, difficulty).
+Diversity 2,The response offers a few popular options but could benefit from a wider range catering to various preferences (e.g., views, accessibility).
+
+---
+Question: What’s the best season to hit Alouette Mountain?
+Answer: Alouette Mountain is popular for hiking and camping in the summer months. For winter activities, consider nearby Cypress Mountain or Grouse Mountain.
+Gemini Evaluation: Relevance 5,The response directly answers the question about the best season for Alouette Mountain.
+Coherence 5,The response is easy to understand and logically presented.
+Fluency 5,The response is grammatically correct and well-written.
+Coverage 4,The response covers the key aspect of summer activities but could benefit from suggesting shoulder seasons.
+Level of Detail 3,The response is not very detailed and could include details like what specific activities are best in the summer.
+Diversity 2,The response provides a limited perspective, only briefly mentioning winter alternatives.
+
+---
+Question: Do I need a 4x4 vehicle to reach the trailhead for Alpen Mountain?
+Answer: Based on the information provided, a 4x4 vehicle would make the drive to the Alpen Mountain trailhead easier, but it is not strictly necessary.
+Gemini Evaluation: Relevance 5,The response directly answers the question about the necessity of a 4x4 vehicle.
+Coherence 5,The response is logically structured and easy to understand with a simple, direct answer.
+Fluency 5,The response is grammatically correct and well-written in a clear manner.
+Coverage 5,The response fully addresses the user's question regarding the vehicle requirements.
+Level of Detail 3,While it answers the question, the response lacks specific details about road conditions or alternative vehicle options, making it somewhat general.
+Diversity 1,The response offers no alternative perspectives or resources, limiting its usefulness for varied situations.
+
+---
+Question: What's a quick hike I can do under 2 hours?
+Answer: There's a hike called "Rock Mountain" that's ranked as moderate difficulty and takes around 6-8 hours to complete. It's not suitable for a quick hike under 2 hours. However, there are other shorter hikes in the area that might be more suitable for you. You can check out the BC Hiking website or the local tourism office for recommendations.
+Gemini Evaluation: Relevance 1,The response initially suggests a hike that is completely unsuitable, missing the mark on addressing the user's request for a short hike. Coherence 3,The response is logically structured, starting with an unsuitable option and then suggesting alternatives, but the initial suggestion harms the overall flow. Fluency 5,The response is grammatically correct and well-written. Coverage 2,The response only superficially addresses the question by mentioning the BC Hiking website and local tourism office, without offering concrete alternatives. Level of Detail 1,The response lacks specific details about shorter hikes, failing to provide useful information beyond general suggestions. Diversity 1,The response does not offer diverse options, resources or examples of short hikes.
