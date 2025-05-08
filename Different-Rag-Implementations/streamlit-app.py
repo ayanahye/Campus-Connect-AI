@@ -4,24 +4,29 @@ from langchain.embeddings import HuggingFaceEmbeddings
 import chromadb
 import streamlit as st
 import os
-from langchain.embeddings import HuggingFaceEmbeddings
 import chromadb
 import uuid
 from llama_cpp import Llama
 import re
 import difflib
 import concurrent.futures
-from dotenv import load_dotenv
+import chromadb
 
-load_dotenv()
-hf_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
-#model_path = "/Users/poorvibhatia/Desktop/Projects/Campus-Connect-AI/Different-Rag-Implementations/Llama-3.2-1B-Instruct-IQ3_M.gguf"
-model_path = "./Llama-3.2-1B-Instruct-IQ3_M.gguf"
-model = Llama(model_path=model_path, n_ctx=2048, n_threads=8)
-#repo_id = "google/gemma-2-2b-it"
-#hf_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+model_path = "mistral-7b-instruct-v0.2.Q4_0.gguf"
+model = Llama(model_path=model_path, n_ctx=2048, n_threads=8, verbose=False)
 st._is_running_with_streamlit = True
+
+embedding_model = HuggingFaceEmbeddings(
+    model_name="sentence-transformers/all-MiniLM-L6-v2"
+)
+
+# persistent client to interact with chroma vector store
+client = chromadb.PersistentClient(path="./chroma_db")
+
+# create collections for each data
+collection = client.get_or_create_collection(name="combined_docs")
+
 
 prefix = "../all_data/"
 
