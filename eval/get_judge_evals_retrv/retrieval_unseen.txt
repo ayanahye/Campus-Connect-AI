@@ -1,0 +1,107 @@
+
+---
+Question: I need help getting a job
+Retrieved Documents:
+1. How do I apply for a job? To apply for a job in British Columbia, you will need to send a résumé (also known as curriculum vitae or CV) and cover letter to the employer. The employer may also ask you to complete an application form, or to see your portfolio or a sample of your work. Job postings usually have instructions about how to submit your documents – by email, fax, mail or online – and the deadline to apply for the job. For more information: Government of Canada: Look for Jobs in Canada Government of Canada: Look for Jobs in Canada Government of Canada: Welcome to Canada Government of Canada: Welcome to Canada Vancouver Public Library: Skilled Immigrant InfoCentre Vancouver Public Library: Skilled Immigrant InfoCentre
+Can I get help with finding a job as a skilled immigrant? Yes, Career Paths for Skilled Immigrants supports skilled professionals in finding work in their field in Canada.
+Gemini Retrieval Evaluation: Doc1 Relevance,1,This document directly addresses the user's need for help getting a job by providing information on how to apply and resources for skilled immigrants.,Doc2 Relevance,1,This document offers targeted support for skilled immigrants seeking employment, which is directly relevant to the user's request.,Accuracy,1.0,Precision,1.0,Recall,0.67,MRR,1.0,MAP,1.0
+
+---
+Question: I want to improve my resume and find a job. Where can I go?
+Retrieved Documents:
+1. Where can I find information about job opportunities in BC? You can find information about job opportunities using government and non-government job search websites, industry-specific job boards, classified sections of national and local newspapers, and social media (e.g. LinkedIn). You can also research companies where you want to work and check their websites for job postings. You can attend a job fair – a place where employers and people looking for jobs meet and discuss jobs. You can ask family members and friends if they know about available jobs. Some jobs are not advertised and you may learn about them by asking people. For more information: WorkBC: Find Jobs WorkBC: Find Jobs WorkBC: BC Industry Job Boards WorkBC: BC Industry Job Boards WorkBC: Explore Careers WorkBC: Explore Careers Government of Canada: Job Bank – Find a Job in Canada as a Newcomer Government of Canada: Job Bank – Find a Job in Canada as a Newcomer
+Where can I look for a job in B.C.? You can search for jobs on the WorkBC website, learn about different careers, B.C.’s economy, industries, and job market. Networking is also important to access the hidden job market.
+Gemini Retrieval Evaluation: Doc1 Relevance,1,This document directly addresses the user's question about where to find job opportunities and improve their job search in BC. It provides multiple relevant resources.
+Doc2 Relevance,1,This document is also relevant, providing specific places to look for jobs in BC. It also mentions the importance of networking.
+Accuracy,1.0,Precision,1.0,Recall,0.67,MRR,1.0,MAP,1.0
+
+---
+Question: Can my family members travel with me to Canada?
+Retrieved Documents:
+1. What family members can I sponsor to immigrate to Canada? The Government of Canada allows Canadian citizens and Permanent Residents (PRs) to sponsor the following family members: your spouse (person you are legally married to), your partner (person you have a “marriage-like relationship” with), your parents, your grandparents, your dependent children and adopted children (under the age of 19 years and not married or living with a partner) and other relatives. Immigrants who arrive under the family class must receive care and support from their sponsors. For more information: Government of Canada: Immigration, Refugees and Citizenship Canada: Sponsor your Family Members Government of Canada: Immigration, Refugees and Citizenship Canada: Sponsor your Family Members
+I’m waiting for my post-graduation work permit. Can I travel outside Canada? … you won’t be able to enter Canada.
+I recently graduated as an international student in Canada. Can I apply for permanent residence? … An Invitation to Apply for permanent residence will be based on your score and rank in the Express Entry pool using the Comprehensive Ranking System("https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/eligibility/criteria-comprehensive-ranking-system.html").
+Gemini Retrieval Evaluation: Doc1 Relevance,1,This document directly addresses which family members can be sponsored, implying they can travel to Canada, which is relevant to the user's question.,Doc2 Relevance,0,This document discusses travel outside Canada while waiting for a post-graduation work permit, which is not related to the user's question about family members traveling with them.,Doc3 Relevance,0,This document discusses applying for permanent residence after graduation, which is not related to the user's question about family members traveling with them.,Accuracy,0.33,Precision,0.33,Recall,0.33,MRR,1.0,MAP,0.33
+
+---
+Question: What are the requirements for admission into Canadian universities?
+Retrieved Documents:
+1. How is admission calculated for applicants with 9 to 23 post-secondary units? Admission is generally based on high school courses and grades, along with post-secondary GPA using all transferable units attempted, considering only the highest grade for repeated courses.
+What is required to apply for a study permit extension? You can only extend a study permit if you are physically inside Canada at the time of application.
+Gemini Retrieval Evaluation: Doc1 Relevance,0,Doc1 Justification,This document discusses admission calculation based on high school grades and post-secondary GPA, which is tangentially related to admission requirements but not directly answering the question about *what* the requirements are. It also discusses study permit extensions, which is irrelevant.,Accuracy,0,Precision,0,Recall,0,MRR,0,MAP,0
+
+---
+Question: I have completed all but one year of my program in my home country. I would like to finish the final year of my program in Canada. Will a Canadian institution accept the academic years that I completed in my home country and allow me to enter the final year in Canada?
+Retrieved Documents:
+1. How can I extend my time in Canada as an international student? If your study permit was issued for less than the amount of time needed to complete your degree, you must extend it before it expires to maintain your immigration status in Canada.
+What do I do if the school I’m studying at loses its designated learning institution status? … you’ll need to update the information about your learning institution in MyAccount.
+Gemini Retrieval Evaluation: Doc1 Relevance,0,Doc1 Justification,This document focuses on extending a study permit or dealing with a school losing its designated learning institution status. It does not address the core question about transferring academic credits from another country.,Accuracy,0.0,Precision,0.0,Recall,0.0,MRR,0.0,MAP,0.0
+
+---
+Question: I have completed all but one year of my program in my home country. I would like to finish the final year of my program in Canada. Will a Canadian institution accept the academic years that I completed in my home country and allow me to enter the final year in Canada?
+Retrieved Documents:
+1. How can I extend my time in Canada as an international student? If your study permit was issued for less than the amount of time needed to complete your degree, you must extend it before it expires to maintain your immigration status in Canada.
+What do I do if the school I’m studying at loses its designated learning institution status? … you’ll need to update the information about your learning institution in MyAccount.
+Gemini Retrieval Evaluation: Doc1 Relevance,0,Doc1 Justification,The document discusses extending a study permit and what to do if a school loses its designated learning institution status. This information is not directly relevant to the student's question about transferring academic credits from their home country to a Canadian institution.,Accuracy,0,Precision,0,Recall,0,MRR,0,MAP,0
+
+---
+Question: How do I get to Metrotown via transit from SFU Burnaby?
+Retrieved Documents:
+1. How do I get to Simon Fraser University (SFU) by bus? To get to Simon Fraser University (SFU), you can take bus routes 145 (leaving from Production Way University Station), R5 (leaving from Burrard Station), 143 (leaving from Burquitlam Station), 144 (leaving from Metrotown Station). Always check the TransLink website or mobile app for the most up-to-date information.
+How can I find information about public transit routes and schedules? … Choose a Transit System BC Transit: Choose a Transit System
+Gemini Retrieval Evaluation: Doc1 Relevance,1,This document provides information on buses going *to* SFU, including one from Metrotown. This is relevant as it indirectly answers the question by showing a route that could be reversed.,Accuracy,1.0,Precision,1.0,Recall,0.33,MRR,1.0,MAP,1.0
+
+---
+Question: How much does the transit adult monthly pass cost?
+Retrieved Documents:
+1. How much does it cost to use public transit? … Compass Card
+How much does a bus fare cost in Vancouver? Vancouver uses a zone-based fare system. A single adult fare is approximately $3.10-$4.45 depending on zones and time of day. As an international student, you'll likely have access to the U-Pass BC program for unlimited travel. Customers can save costs by purchasing a Compass Card and loading either passes or stored value. For convenience, you can also tap your contactless debit or credit card or buy a bus transfer ticket using cash at faregates and Compass readers. Not paying your fare, or using incorrect fare, could result in a $173 fine.
+Gemini Retrieval Evaluation: Doc1 Relevance,Doc1 Justification
+1,This document provides specific information about transit costs in Vancouver, including single fares, the U-Pass BC program (relevant to international students), Compass Cards, and payment options. While it doesn't directly state the cost of a monthly pass, it mentions options to save costs, which implies the existence of a monthly pass and different payment methods, making it relevant.
+,Accuracy,Precision,Recall,MRR,MAP
+1,1,0.33,1,1
+
+---
+Question: Do I need a Social Insurance Number (SIN) to work in Canada?
+Retrieved Documents:
+1. What is a Social Insurance Number (SIN) and why do I need it? A SIN is required to work in Canada and access government programs and benefits. You should protect your SIN as it contains important personal information.
+Can I work in any type of job if I am eligible to work off campus? ("https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=502&top=15") Yes. You may work for any employer in Canada who is not on the ineligible employer list, as long as you continue to comply with the requirements of the off-campus work authorization. You must also get an immigration medical exam if you plan to work in certain occupations ("https://www.canada.ca/en/immigration-refugees-citizenship/services/application/medical-police/medical-exams/requirements-temporary-residents.html").
+Gemini Retrieval Evaluation: Doc1 Relevance,1,This document directly answers the question by stating that a SIN is required to work in Canada.,Doc2 Relevance,0,This document discusses off-campus work authorization and medical exams, which is tangentially related to working in Canada but does not address the SIN requirement.,Accuracy,0.5,Precision,0.5,Recall,0.33,MRR,1,MAP,1
+
+---
+Question: How do taxes work for international students in Canada?
+Retrieved Documents:
+1. What is income tax? … file an income tax and benefit return?
+How do I know how long I can stay in Canada as an international student?("https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=516&top=15") Your immigration document (a study permit or a stamp in your passport) will state how long you can stay in Canada. If you need or want to stay longer in Canada, please go to Visa and Immigration Applications("https://www.canada.ca/en/immigration-refugees-citizenship/services/application/application-forms-guides.html#inside") to apply for an extension.
+Gemini Retrieval Evaluation: Doc1 Relevance,0,Doc1 Justification,This document excerpt focuses on the duration of stay for international students and doesn't mention anything about taxes. It is therefore irrelevant to the question.
+Accuracy,0,Precision,0,Recall,0,MRR,0,MAP,0
+
+---
+Question: Can I switch majors as an international student?
+Retrieved Documents:
+1. Can I take time off from my studies as an international student? Immigration, Refugees and Citizenship Canada (IRCC) generally requires international students to remain enrolled and actively pursue studies, as taking time off may affect your study permit, work eligibility, and Post-Graduation Work Permit eligibility.
+Are there International Student Advisors available at SFU? Yes. An International Student Advisor helps students understand enrolment requirements affecting their study permit, work eligibility, and stay in Canada.
+Gemini Retrieval Evaluation: Doc1 Relevance,0,Doc1 Justification,This document discusses taking time off from studies, not switching majors. Although it mentions international student status and study permits, it doesn't address the question of changing majors.,Accuracy,0,Precision,0,Recall,0,MRR,0,MAP,0
+
+---
+Question: What does academic probation mean and how do I get off it?
+Retrieved Documents:
+1. There’s a strike at my designated learning institution, and I can’t start or continue my studies. What does that mean for my status as a study permit holder?("https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1367&top=15") This situation is beyond your control, and your status as a study permit holder should not be affected. As a result of the strike, you will not face any penalty or enforcement action because you can’t pursue your studies during this time be able to work off campus("https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html#who-can") for up to 24 hours per week if your study permit allows you to work (and also work full-time during regular breaks such as winter holidays and reading week) still be eligible for the Post-Graduation Work Permit Program ("https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"), if applicable. You must continue to have valid status as a student in Canada to be able to return to class after the labour dispute is resolved. If you need to apply to extend your study permit during the strike, include a letter from the registrar of your designated learning institution that confirms that the strike has stopped you from attending school and pursuing your studies.
+What's the policy for graduate international students taking a term off? Graduate students must maintain continuous enrollment per SFU Graduate General Regulations section 1.4.1, and need to apply for a formal leave of absence if they require a break from studies.
+What is Advanced Placement (AP)? Advanced Placement is a program that allows students to take courses during high school that can earn them college credit and/or qualify students for more advanced classes when they begin college. Usually secondary students write their selected AP exams during their grade 11 or 12 school year. AP exams are usually scheduled in early May each year and registration for the exams often opens in early March. Although it is not required, students intending to take AP courses often enrol into school based Honour Programs starting from grade 9. To apply for the Honour Program, grade 8 students will have to fill out an application form and write an exam which often takes place in January. Each secondary school has their own selection of AP/Honour courses. You may consult the secondary school in your catchment area for more information. For more information: BC Ministry of Education: Advanced Placement BC Ministry of Education: Advanced Placement
+Gemini Retrieval Evaluation: 0,This document discusses strikes, work permits, and advanced placement, none of which are related to academic probation.,0,This document discusses taking a term off, which is not directly related to academic probation.,0,This document discusses advanced placement, which is not related to academic probation.,0.0,0.0,0.0,0.0,0.0
+
+---
+Question: How do finals and midterms typically work in BC universities?
+Retrieved Documents:
+1. Are there any special cases where students can be considered full-time with different enrollment criteria? Students can also be considered full-time if they are in a Formal Exchange Program/Field School, co-operative education placement, approved internship or practicum, enrolled in the Dual Degree partnerships between SFU and certain colleges, enrolled under the Western Deans Agreement, are Visiting International Research Students, or have approved full-time equivalency from the Centre for Accessible Learning.
+How is admission calculated for applicants with 9 to 23 post-secondary units? Admission is generally based on high school courses and grades, along with post-secondary GPA using all transferable units attempted, considering only the highest grade for repeated courses.
+Gemini Retrieval Evaluation: Doc1 Relevance,0,Doc1 Justification,This document discusses full-time student status and admission calculations, which are not relevant to the user's question about how finals and midterms work.,Accuracy,0.0,Precision,0.0,Recall,0.0,MRR,0.0,MAP,0.0
+
+---
+Question: Can I have a pet in on-campus housing?
+Retrieved Documents:
+1. Does SFU have any service to help students find off-campus housing? SFU partners with Places4Students to provide off-campus rental listings. Link: https://www.places4students.com/Places/School.aspx?SchoolID=xCSJ%2fv5WiAA%3d
+Can off-campus students buy an SFU Meal Plan? Yes, meal plans are available for all students, whether they live on campus or not.
+Is there an agency or someone who can help me find a temporary place to live while I find a home? … Find Newcomer Services Near You
+Gemini Retrieval Evaluation: Doc1 Relevance,0,Doc1 Justification,This document focuses on off-campus housing and meal plans, and newcomer services, none of which address the question about pets in on-campus housing.,Doc2 Relevance,0,Doc2 Justification,This document also discusses off-campus housing, meal plans, and newcomer services, and does not address pets in on-campus housing.,Accuracy,0,Precision,0,Recall,0,MRR,0,MAP,0
