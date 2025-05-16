@@ -1,10 +1,8 @@
-# Campus-Connect-AI: BorealisAI Let's Solve it 2025
+# Campus Connect AI: RBC Borealis AI Let's Solve It 2025
 
 ## Interface Demo
 
-<p>
-  <img src="ccai-gif.gif" width="500"/>
-</p>
+[Demo Video](Video/demo_video.mp4)
 
 ## The Problem 
 International students often face challenges when transitioning to a new country, including navigating unfamiliar environments, understanding local customs, managing administrative tasks, and accessing essential resources such as housing, healthcare, immigration policies, and financial services. Canada had 1,040,985 international students at all levels of study at the end of 2023 [1], reflecting the growing demand for better support systems. Additionally, the number of study permit holders with a valid permit in Canada from 2000 to 2022 has increased significantly [1], highlighting the increasing need for accessible resources.
@@ -15,13 +13,18 @@ A machine learning-powered chatbot can provide personalized, real-time assistanc
 * Healthcare 
 * Transit 
 * Immigration 
-* Reddit university data
+* Activities and Extracurriculars
+* University Specific Data
 
 ## The Goal
 Our goal is to create a chatbot that serves as an intelligent, centralized resource for international students. It will provide instant, relevant, and accurate assistance using Retrieval Augmented Generation (RAG), and potentially fine-tuning, helping students navigate their new environment with ease. Through continuous improvement and expansion, we aim to establish a comprehensive support system that enhances student well-being and fosters a more inclusive academic community.
 
 ## Sources so Far
 [[1] - CBIE Infographic](https://cbie.ca/infographic/)
+
+## RBC Mentors:
+* Lauren Zung
+* Diane Johnson
 
 ## Team members: 
 * Ayana Hussain: ayanahye
